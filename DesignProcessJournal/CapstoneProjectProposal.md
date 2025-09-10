@@ -1,20 +1,13 @@
 # Capstone Project Proposal
 
-this is the beginning of the project proposal
+### Description
+ Create a mobile application that can track and share screen time data across different users with the idea of gamification and a fun/interactive UI.
 
-Submit your final project proposal; include a description and timeline, as well as details surrounding its material, space, and time requirements. Be thorough.
-
-This should follow the same structure as your weekly design journal submission. Each week, you must upload new pages as you add them to your journal, demonstrating your progress. (Design Process Journal. What I expect is that the journal reflects your work as a designer. Think of it as: How do I, as a designer, communicate professionally to my clients the work that I am doing?)
-
-Description: Create an application that can track and share screen time data across different users.
-
-Timeline: 
-
+### Timeline
   **Goals:**
   <br>
-    1. Research best methods to achieve (functional UI, database to store information about users, displaying of screen time using API?, ability to view others'              screen time, testing with real users using a prototype)
+    Help people keep off their phone by comparing their screen time with others. We must research the best methods to achieve this through functional UI, databases to store information, displaying screen time through API calls and testing with real users using prototypes.
 
-    
   September: 
   <br>
   - 17th- **Empathize I**: Plan and conduct at least two research activities.
@@ -48,4 +41,6 @@ Timeline:
   <br>
   - TBD: **Final Presentations**
              _Have Completed_: Narrative hook, practiced presentation, have a working prototype on phones able to be shown. 
-Materials/Frameworks:
+
+### Materials/Frameworks
+For prototyping, using a widget based framework such as figma or flutterflow will be advanatageous since our UI will be a key component in the construction of this app. We will then need to emulate different mobile devices through a mobile emulator and test different API calls on each to make sure it is cross compatible. Coding tools and API libraries will definitely be required and to simplify workflow we will be sharing the project on GitHub to facilitate teamwork. 
