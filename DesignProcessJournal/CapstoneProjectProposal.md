@@ -1,7 +1,7 @@
 # Capstone Project Proposal
 
 ### Description
- Create a mobile application that can track and share screen time data across different users with the idea of gamification and a fun/interactive UI.
+ Create a mobile application that can track and share screen time data across different users with the idea of gamification and a fun/interactive UI. The goal is to allow users a tool to better moniter their screen usage. The added feature of making screentimes sharable between friends was inspired by our weekly screen time challenges where the person with the higher screen time loses the challenge. In all of our attempts to lower our screentime this has been the only effective process. 
 
 ### Timeline
   **Goals:**
@@ -45,4 +45,4 @@
 ### Materials/Frameworks
 For prototyping, using a widget based framework such as figma or flutterflow will be advanatageous since our UI will be a key component in the construction of this app. We will then need to emulate different mobile devices through a mobile emulator and test different API calls on each to make sure it is cross compatible. Coding tools and API libraries will definitely be required and to simplify workflow we will be sharing the project on GitHub to facilitate teamwork. 
 
-**Tools**: Flutterflow (app builder with UI and Backend capabilities), Figma (for UI creation and branding mood board), GitHub (version control and deploymet)
+**Tools**: Flutterflow (app builder with UI and Backend capabilities), Figma (for UI creation and branding mood board), GitHub (version control, deploymet and documentation)
