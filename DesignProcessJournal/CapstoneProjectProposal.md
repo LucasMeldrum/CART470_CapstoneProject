@@ -1,12 +1,18 @@
 # Capstone Project Proposal
 
 ### Description
- Create a mobile application that can track and share screen time data across different users with the idea of gamification and a fun/interactive UI. The goal is to allow users a tool to better moniter their screen usage. The added feature of making screentimes sharable between friends was inspired by our weekly screen time challenges where the person with the higher screen time loses the challenge. In all of our attempts to lower our screentime this has been the only effective process. 
+ Gen Z is seeing an unprecedented new addiction: screen time. With young people, including ourselves, spending anywhere from 3-7 hours per day on their phones, many different apps and self-improvement mantras have been trying to help. I, personally, have tried many different routes to decreasing my screen time, but have only found one that actually works: accountability. For our capstone, we are attempting to create a mobile application that can track and share screen time data across different users with the idea of gamification and a fun/interactive UI. The goal is to allow users a tool to better monitor their own and their friends' screen times to add accountability to addiction. 
+ ## Designing for the Socialization of Self-Improvement
+ Beyond this being just a screen time tracker, we are  planning on making your score shareable between friends. For a few months, our team has been taking part in a weekly screen time challenge where the person with the highest screen time each week loses the challenge. In all of our attempts to lower our screentime, this has been the only effective process. Our main design goal for this project is to create a virtual space where sociability and accountability build awareness of patterns. 
+ ## Aspects of Design
+ We will do more brainstorming and feasibility narrowing but roughly our app wil include:
+ 1. Front page interface describing screen time usage for the week and average weekly use (like on IOS devices)
+ 2. Social page to see who in group is 'wi
 
 ### Timeline
   **Goals:**
   <br>
-    Help people keep off their phone by comparing their screen time with others. We must research the best methods to achieve this through functional UI, databases to store information, displaying screen time through API calls and testing with real users using prototypes.
+    Help people keep off their phones by comparing their screen time with others. We must research the best methods to achieve this through functional UI, databases to store information, displaying screen time through API calls and testing with real users using prototypes.
 
   September: 
   <br>
@@ -43,6 +49,12 @@
              _Have Completed_: Narrative hook, practiced presentation, have a working prototype on phones able to be shown. 
 
 ### Materials/Frameworks
-For prototyping, using a widget based framework such as figma or flutterflow will be advanatageous since our UI will be a key component in the construction of this app. We will then need to emulate different mobile devices through a mobile emulator and test different API calls on each to make sure it is cross compatible. Coding tools and API libraries will definitely be required and to simplify workflow we will be sharing the project on GitHub to facilitate teamwork. 
+For prototyping, using a widget-based framework such as Figma or Flutterflow will be advantageous since our UI will be a key component in the construction of this app. Our process will include roughly: 
+1. Identifying user needs and interests of potential users in order to build a lightweight app that is simple but effective (deciding number and look of interfaces, deciding whether to create phone widget, deciding extent and process of socialization).
+2. Building a wireframe prototype of the UI using Figma and testing usability with potential users
+3. Building an action plan for backend database creation and the social mobility aspect. Researching potential API's for accessing settings data.
+4. Building prototype of a completely working system structure, unpolished and rough.
+5. Refining final prototype to show on project day. 
+We will then need to emulate different mobile devices through a mobile emulator and test different API calls on each to make sure it is cross-compatible. Coding tools and API libraries will definitely be required, and to simplify workflow, we will be sharing the project on GitHub to facilitate teamwork. 
 
 **Tools**: Flutterflow (app builder with UI and Backend capabilities), Figma (for UI creation and branding mood board), GitHub (version control, deploymet and documentation)
