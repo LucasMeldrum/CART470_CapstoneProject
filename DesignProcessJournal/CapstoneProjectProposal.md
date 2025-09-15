@@ -8,7 +8,9 @@
  We will do more brainstorming and feasibility narrowing but roughly our app wil include:
  1. Front page interface describing screen time usage for the week and average weekly use (like on IOS devices)
  2. Social page to see the scores of friend accounts
- 3. Visual calendar to track usage over longer periods of time
+ 3. Visual calendar to track usage over longer periods of time (can hold up to months worth of tracking)
+<img width="316" height="569" alt="image" src="https://github.com/user-attachments/assets/8ef75ad2-a5c7-4b84-8bc0-ade9cad17a9b" />
+<br>
 
 ### Timeline
   **Goals:**
