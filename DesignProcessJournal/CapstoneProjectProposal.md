@@ -7,7 +7,8 @@
  ## Aspects of Design
  We will do more brainstorming and feasibility narrowing but roughly our app wil include:
  1. Front page interface describing screen time usage for the week and average weekly use (like on IOS devices)
- 2. Social page to see who in group is 'wi
+ 2. Social page to see the scores of friend accounts
+ 3. Visual calendar to track usage over longer periods of time
 
 ### Timeline
   **Goals:**
@@ -57,4 +58,4 @@ For prototyping, using a widget-based framework such as Figma or Flutterflow wil
 5. Refining final prototype to show on project day. 
 We will then need to emulate different mobile devices through a mobile emulator and test different API calls on each to make sure it is cross-compatible. Coding tools and API libraries will definitely be required, and to simplify workflow, we will be sharing the project on GitHub to facilitate teamwork. 
 
-**Tools**: Flutterflow (app builder with UI and Backend capabilities), Figma (for UI creation and branding mood board), GitHub (version control, deploymet and documentation)
+**Tools**: Flutterflow (app builder with UI and Backend capabilities), Figma (for UI creation and branding mood board), GitHub (version control, deployment and documentation)
