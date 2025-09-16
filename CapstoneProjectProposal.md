@@ -1,4 +1,5 @@
 # Capstone Project Proposal
+
 this is the beginning of the project proposal
 
 Submit your final project proposal; include a description and timeline, as well as details surrounding its material, space, and time requirements. Be thorough.
