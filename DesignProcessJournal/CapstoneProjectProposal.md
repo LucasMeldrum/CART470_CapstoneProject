@@ -13,7 +13,7 @@
 <br>
 
 Furthermore, screen time will be organized into categories depending on what your phone has been used for. For example, Intstagram, Facebook, Reddit, etc. will be categorized into social media while Google Maps, Apple Maps, Waze, etc. will be put into navigation/maps. This seperation of categories is significant since certain apps have less active monitoring (such as a GPS or music) and are used while doing other tasks whilst others required your full attention.
-<img width="316" height="569" alt="image" src="Media/AppCategories.png" />
+<img width="316" height="569" alt="image" src="https://github.com/LucasMeldrum/CART470_CapstoneProject/blob/main/Media/AppCategories.png" />
 <br>
 
 ### Timeline
