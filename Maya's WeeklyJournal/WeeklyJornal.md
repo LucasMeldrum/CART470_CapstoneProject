@@ -1,4 +1,18 @@
 # Week 1
+### Description
+ Gen Z is seeing an unprecedented new addiction: screen time. With young people, including ourselves, spending anywhere from 3-7 hours per day on their phones, many different apps and self-improvement mantras have been trying to help. I, personally, have tried many different routes to decreasing my screen time, but have only found one that actually works: accountability. For our capstone, we are attempting to create a mobile application that can track and share screen time data across different users with the idea of gamification and a fun/interactive UI. The goal is to allow users a tool to better monitor their own and their friends' screen times to add accountability to addiction. 
+ ## Designing for the Socialization of Self-Improvement
+ Beyond this being just a screen time tracker, we are  planning on making your score shareable between friends. For a few months, our team has been taking part in a weekly screen time challenge where the person with the highest screen time each week loses the challenge. In all of our attempts to lower our screentime, this has been the only effective process. Our main design goal for this project is to create a virtual space where sociability and accountability build awareness of patterns. 
+ ## Aspects of Design
+ We will do more brainstorming and feasibility narrowing but roughly our app wil include:
+ 1. Front page interface describing screen time usage for the week and average weekly use (like on IOS devices)
+ 2. Social page to see the scores of friend accounts
+ 3. Visual calendar to track usage over longer periods of time (can hold up to months worth of tracking)
+<img width="316" height="569" alt="image" src="https://github.com/user-attachments/assets/8ef75ad2-a5c7-4b84-8bc0-ade9cad17a9b" />
+<br>
+
+Furthermore, screen time will be organized into categories depending on what your phone has been used for. For example, Intstagram, Facebook, Reddit, etc. will be categorized into social media while Google Maps, Apple Maps, Waze, etc. will be put into navigation/maps. This seperation of categories is significant since certain apps have less active monitoring (such as a GPS or music) and are used while doing other tasks whilst others required your full attention.
+
 
 # Week 2
 **Empathy Interview**
