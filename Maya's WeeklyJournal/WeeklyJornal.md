@@ -11,13 +11,21 @@
 <img width="316" height="569" alt="image" src="https://github.com/user-attachments/assets/8ef75ad2-a5c7-4b84-8bc0-ade9cad17a9b" />
 <br>
 
-Furthermore, screen time will be organized into categories depending on what your phone has been used for. For example, Intstagram, Facebook, Reddit, etc. will be categorized into social media while Google Maps, Apple Maps, Waze, etc. will be put into navigation/maps. This seperation of categories is significant since certain apps have less active monitoring (such as a GPS or music) and are used while doing other tasks whilst others required your full attention.
+Furthermore, screen time will be organized into categories depending on what your phone has been used for. For example, Intstagram, Facebook, Reddit, etc. will be categorized into social media, while Google Maps, Apple Maps, Waze, etc. will be put into navigation/maps. This separation of categories is significant since certain apps have less active monitoring (such as a GPS or music) and are used while doing other tasks, whilst others require your full attention.
 
 
 # Week 2
 **Empathy Interview**
   - Interview with Rachel
+    1. 5 hours average
+    2. 6.8 hours average
+    3. Silencing phone, deleting most used apps, brute force
+    4. Instagram, Messenger, YouTube
   - Interview with Jocelyne
+    1. 2 hours average
+    2. 3.6 hours average
+    3. Not much, attempted to leave phone at home sometimes
+    4. YouTube, Texting, Instagram
 ## Questions:
 1. What do you guess your screen time is?
 2. What is your actual average screen time?
@@ -36,6 +44,7 @@ Each week, we calculate our own average daily screen time and then compare it wi
 1. How can we design for accountability through socialization and competition (biggest loser?)
 2. How can we design for accountability through visibility (always aware of your screen time in some way, making it something people consider and think about. Can people accurately guess their own screen time?
 3. How can we create a simple interface that isn't overwhelming and makes it easy for people to check their screen time and that of their friends?
+4. People obviously want to lower their screentime, but what is the barrier? Why have they been trying with no success, and how can we bypass the mental block? 
 
 
 
