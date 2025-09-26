@@ -7,3 +7,30 @@ In regards to the design thinking approach, conducting user empathy immersion/ob
 
 ### This Week's Work
 This week I researched issues regarding screen time affecting different generations and how it impacts certain groups of people differently than others. I found that the situation is increasingly getting worse and is impacting my generation the greatest. I also helped create the project proposal and created the GitHub repo to organize our ideas and for when we begin the development of the app.
+
+# Week 2
+
+### Research, Empathy and Users
+Before developping any prototypes or diving into the fundamentals of the app, our team took the time to research our user's and see how big of a problem screen time is to the individual. I personally created a survey and set it out to as many people to see to what degree the situation of screen time affects our generation. 
+
+Link to the form: https://docs.google.com/forms/d/e/1FAIpQLSdl6C0oCfMHk6J4hh5uJL0eE9hF36W_8fCV8MQIIR-c7GZTiA/viewform?usp=dialog
+
+### Results
+
+Our results are seperated into quantitative and qualitative data. 
+
+**Average user screen time:** 6 hours and 4 mins.
+**Most used apps:** Messaging, calling facetiming.
+**Second most used apps:** Social media.
+**Third most used apps:** Shows/Movies.
+
+Most people were **NOT** satisfied with their screen time and would much rather spend less time on their phones.
+
+**EVERYONE** we surveyed find their phone very addicting and hard to stop even if they want to.
+
+From these results we gained great insight on our generation, the struggles with their phone use and how most people want to stop being on their phones as much but find it difficult, like an addiciton. 
+
+### Immersion
+On top of the research we did with users, we (both my partner and I) immersed ourselves in what the app would be doing. We've been tracking our weekly screen time, competing agaist eachother to see who has the lowest. In doing so, I have lowered my screen time on my phone from an average of 6-8hrs down to 3hrs. A huge significant decrease and it has been steadily decreasing as time has gone on.
+
+This immersion has helped us better understand what will work to help users lower their screen time and how people might enjoy the competitive nature of this app.
