@@ -61,6 +61,7 @@ After our interviews and survey we were able to take away real problem statement
 **Problem Statements:**
 - How might we help Gen-Z reclaim time spent on their phones so they can enjoy their youth and spend time on things they want to do?
 - How might we make people more consistently aware of their screen time in order to help them make more informed decisions?
+- How might we address the addiction aspect of screen time and users' seeming inability to keep themselves off screens?
 
 **Data Synthesis with ChatGPT**
 <br>
