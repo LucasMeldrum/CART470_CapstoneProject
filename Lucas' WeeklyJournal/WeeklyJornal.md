@@ -54,3 +54,16 @@ Many people pick up their phone automatically or without intention.
 Users want to reduce screen time but struggle to maintain self-control or stick to resolutions.
 - Fear of missing out (FOMO) or needing distraction keeps them hooked.
 - Phones provide escape, stimulation, or a buffer against real responsibilities.
+
+### Problem Statements
+With the info gathered from our forms and AI prompting, we were able to determine 3 statements that seem to address the User, Need and Goal:
+
+> Problem Statements:
+>- How might we help Gen-Z reclaim time spent on their phones so they can enjoy their youth and spend time on things they want to do?
+>- How might we make people more consistently aware of their screen time in order to help them make more informed decisions?
+>- How might we address the addiction aspect of screen time and users' seeming inability to keep themselves off screens?
+
+The first statement being the most well structured and defined under the scope of User/Need/Goal.
+
+### Up Next
+With a well defined problem statement and understanding our user's needs and goals, we are now able to begin iterating and coming up with ideas that will suit the app we are developping. 
