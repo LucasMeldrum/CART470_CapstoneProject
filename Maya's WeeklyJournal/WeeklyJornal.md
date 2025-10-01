@@ -74,6 +74,21 @@ _Prompt 1_: Here are answers to a Google form we sent about Gen-Z's screen time 
    - Also unemployment and excess free time
 6. Social Media as Biggest Hook
    - "TikTok, Instagram Reels, and scrolling are the main culprits mentioned."
+  
+<img width="418" height="170" alt="image" src="https://github.com/user-attachments/assets/da53fdad-9325-4d37-ae00-f4d32ba805a1" />
+<img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/80cdd65f-8ee6-41a9-8c5a-70a27ed4471f" />
+<img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/6b98aaf6-e7dd-4bea-8af4-16495cb8d868" />
+
+Based on the data most used apps are: Social Media, Texting and Facetiming, and Watching Shows
+
+_Prompt 2_: Here are the average daily times from users 3 hours. What are some trends and insights you have gained from this?
+<br>
+Mean: ~6 hr per day
+<br>
+Highest: 16 hr per day
+<br>
+Lowest: 2.45 hr per day
+
 
 
   
