@@ -44,7 +44,50 @@ Each week, we calculate our own average daily screen time and then compare it wi
 1. How can we design for accountability through socialization and competition (biggest loser?)
 2. How can we design for accountability through visibility (always aware of your screen time in some way, making it something people consider and think about. Can people accurately guess their own screen time?
 3. How can we create a simple interface that isn't overwhelming and makes it easy for people to check their screen time and that of their friends?
-4. People obviously want to lower their screentime, but what is the barrier? Why have they been trying with no success, and how can we bypass the mental block? 
+4. People obviously want to lower their screentime, but what is the barrier? Why have they been trying with no success, and how can we bypass the mental block?
+
+# Week 3
+**Define**
+
+
+[Spreadsheet for Screentime Usage](url)
+
+
+After our interviews and survey we were able to take away real problem statements from real people. Our take aways where as follows:
+1. Phone users don't realize how much time they are spending on their phone.
+2. 95% of responders said they would like to lower their screen time but can't.
+3. We will be focusing on Gen-Z usage and their concerns around reclaiming their free time. 
+
+**Problem Statements:**
+- How might we help Gen-Z reclaim time spent on their phones so they can enjoy their youth and spend time on things they want to do?
+- How might we make people more consistently aware of their screen time in order to help them make more informed decisions?
+
+**Data Synthesis with ChatGPT**
+<br>
+_Prompt 1_: Here are answers to a Google form we sent about Gen-Z's screen time usage. The question was: Would you want to lower your screen time? What are some patterns from this data that may help us understand the usage of young people's screen time?
+1. Desire vs Difficulty
+2. Phone as a habit/addiction
+3. Multipurpose use makes it tricky (some users use their phone for work or school)
+   - "But these “necessary” uses often lead to distractions (e.g., checking the weather → 10 reels in)" -GPT
+5. Emotional and Situational Triggers
+   - Many mention boredom or using it as a distraction
+   - Also unemployment and excess free time
+6. Social Media as Biggest Hook
+   - "TikTok, Instagram Reels, and scrolling are the main culprits mentioned."
+  
+<img width="418" height="170" alt="image" src="https://github.com/user-attachments/assets/da53fdad-9325-4d37-ae00-f4d32ba805a1" />
+<img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/80cdd65f-8ee6-41a9-8c5a-70a27ed4471f" />
+<img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/6b98aaf6-e7dd-4bea-8af4-16495cb8d868" />
+
+Based on the data most used apps are: Social Media, Texting and Facetiming, and Watching Shows
+
+_Prompt 2_: Here are the average daily times from users 3 hours. What are some trends and insights you have gained from this?
+<br>
+Mean: ~6 hr per day
+<br>
+Highest: 16 hr per day
+<br>
+Lowest: 2.45 hr per day
 
 
 
