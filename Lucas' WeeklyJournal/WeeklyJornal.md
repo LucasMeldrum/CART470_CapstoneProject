@@ -34,3 +34,23 @@ From these results we gained great insight on our generation, the struggles with
 On top of the research we did with users, we (both my partner and I) immersed ourselves in what the app would be doing. We've been tracking our weekly screen time, competing agaist eachother to see who has the lowest. In doing so, I have lowered my screen time on my phone from an average of 6-8hrs down to 3hrs. A huge significant decrease and it has been steadily decreasing as time has gone on.
 
 This immersion has helped us better understand what will work to help users lower their screen time and how people might enjoy the competitive nature of this app.
+
+# Week 3
+
+### Define
+With our results from the previous week, both quantitative and qualitative our goal this week was to create a suitable problem statement that defines a clear user, need and goal. 
+
+Using AI to parse through the information, we found repeating ideas that were significant to our research based on the responses. Prompting AI in a clear and non biasing way allowed for answers based on our users and not based on our predeterminations. Here were the results:
+
+#### Key Ideas Derived from the Responses:
+
+- Phone usage is habitual and often unconscious
+Many people pick up their phone automatically or without intention.
+- Addictive app design makes it difficult to stop.
+- Social media and short-form content (e.g., TikTok, Reels) make users lose track of time.
+- People rely on their phones for convenience, necessity, or boredom relief.
+- Even when trying to cut back, tools like messaging, checking the weather, or reading still pull them in.
+- Lack of motivation or discipline prevents change.
+Users want to reduce screen time but struggle to maintain self-control or stick to resolutions.
+- Fear of missing out (FOMO) or needing distraction keeps them hooked.
+- Phones provide escape, stimulation, or a buffer against real responsibilities.
