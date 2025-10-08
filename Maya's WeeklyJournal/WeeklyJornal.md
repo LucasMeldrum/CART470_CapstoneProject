@@ -98,9 +98,13 @@ Another question for us was whether we wanted to encourage less use or discourag
 
 Seeing the ideas in visuals instead of just written or spoken provided us with a more concrete way to think about our designs. For next week, we are aiming to narrow down three concepts that we want to execute in the final application (we want to keep it simple and effective) and provide a full visual and commented representation of how that might look. This will translate to a working prototype created on Figma the week after. 
 
+I have also included a basic mood board that shows some of the visuals we saw and were inspired by when designing our app. They are different forms of graphs and IOS widgets. This was important to gather inspiration as well as understand the limits and affordances of the IOS app widget space. 
+
 ![IMG_4736-min](https://github.com/user-attachments/assets/a2863ff3-b959-4334-bfba-54d48b09804a)
 ![IMG_4735-min](https://github.com/user-attachments/assets/e16793cf-c3ff-4606-bf92-86fce8c943eb)
 ![IMG_4734-min](https://github.com/user-attachments/assets/5a33ef3d-3ac1-45b2-a434-b57b53f9c5fe)
+![ScreentimeVisualsMoodBoard](https://github.com/user-attachments/assets/1ce0a331-c68b-4609-a484-771bc57a18ea)
+
 
 
 
