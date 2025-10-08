@@ -90,6 +90,24 @@ Highest: 16 hr per day
 <br>
 Lowest: 2.45 hr per day
 
+# Week 4
+**Ideate 1**
+
+For this week, with our problem space in mind, I sketched a series of concepts that could be used for the final product. I was trying to create a large breadth of ideas, some not very feasible, just to broaden our range of thinking. Many of the ideas involved different visual graphs and techniques for relaying the information we wanted users to become more aware of. Other ideas revolved around the social aspect of the app and how we could encourage or discourage phone use by allowing others to see your screen time. The concepts ofter were iOS-based and developed as widgets for the phone screen, effectively making it a piece of your daily routine that is accessible at all times. Something that is always in your face. 
+
+Another question for us was whether we wanted to encourage less use or discourage use. The tone and the way the app handles too much use (in a positive reinforcement way or a negative punishing way) could set the stage for the tone of the entire app.
+
+Seeing the ideas in visuals instead of just written or spoken provided us with a more concrete way to think about our designs. For next week, we are aiming to narrow down three concepts that we want to execute in the final application (we want to keep it simple and effective) and provide a full visual and commented representation of how that might look. This will translate to a working prototype created on Figma the week after. 
+
+I have also included a basic mood board that shows some of the visuals we saw and were inspired by when designing our app. They are different forms of graphs and IOS widgets. This was important to gather inspiration as well as understand the limits and affordances of the IOS app widget space. 
+
+![IMG_4736-min](https://github.com/user-attachments/assets/a2863ff3-b959-4334-bfba-54d48b09804a)
+![IMG_4735-min](https://github.com/user-attachments/assets/e16793cf-c3ff-4606-bf92-86fce8c943eb)
+![IMG_4734-min](https://github.com/user-attachments/assets/5a33ef3d-3ac1-45b2-a434-b57b53f9c5fe)
+![ScreentimeVisualsMoodBoard](https://github.com/user-attachments/assets/1ce0a331-c68b-4609-a484-771bc57a18ea)
+
+
+
 
 
   
