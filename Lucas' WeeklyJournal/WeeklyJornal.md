@@ -66,4 +66,63 @@ With the info gathered from our forms and AI prompting, we were able to determin
 The first statement being the most well structured and defined under the scope of User/Need/Goal.
 
 ### Up Next
-With a well defined problem statement and understanding our user's needs and goals, we are now able to begin iterating and coming up with ideas that will suit the app we are developping. 
+With a well defined problem statement and understanding our user's needs and goals, we are now able to begin iterating and coming up with ideas that will suit the app we are developping.
+
+# Week 4
+
+## Ideate: Exploring Possibilities Through Divergent Thinking
+
+With a strong understanding of our users, their motivations, and our defined problem statement *helping Gen-Z reclaim time spent on their phones*, this week focused on **brainstorming a wide range of ideas** without constraints. Instead of evaluating or filtering, the goal was to **generate as many possibilities as possible**, keeping our past weeks in mind.
+
+### Ideation Strategy Used
+I chose to come up with as many ideas as possible and write down notes for each one. Doing this let my mind flow and wander wherever it wanted to go. This allows for many ideas and even bad ones to lead to ideas that are more developped.
+
+---
+
+### Raw Idea Generation (Unfiltered)
+
+### 1. Gamification & Competition
+- Daily and weekly screen time challenges
+- Team-based competitions
+- XP and level progression
+- Unlockable avatars/themes
+- Streak system
+- “Phone-Free Quests”
+
+### 2. Social Motivation & Accountability
+- Accountability buddy system
+- Group leaderboards
+- Real-time comparison with friends
+- Squad-based challenges
+- Friend nudges/rewards
+
+### 3. Addiction-Aware Design
+- Delayed app entry (pause screens)
+- Forced reflection screens
+- “Is this intentional?” prompts
+- Breathing countdown before entry
+- Lock-out timers
+
+### 4. Awareness & Tracking
+- Real-time screen time widgets
+- End-of-day habit summaries
+- Usage heatmaps
+- Pickup notifications
+- Weekly breakdowns
+
+
+---
+
+
+## Top Ideas to Move Forward With
+
+These concepts stood out as high-impact and feasible:
+
+1. Competitive Screen Time Challenges (solo + friends)
+2. Gamified Rewards, XP, and Streaks
+3. Accountability Buddy or Squad Mode
+4. Intentional App Entry (pause/delay screens)
+5. Minimalist Distraction-Free Mode
+6. Reflection Dashboard & Motivation Stats
+
+These ideas will lead into **Week 5 prototyping and wireframing** where we can see what is feasible and work!
