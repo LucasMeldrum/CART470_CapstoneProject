@@ -60,7 +60,12 @@ A large part of this project focuses on how accountability can help people with 
 
 The last important page of our app is the in-depth statistic page. This page collects data from each week and tracks it over the months that you have had the app. The goal of this page is to provide long-term awareness for their patterns of use and how much time it is taking out of their lives over the long term. It is not supposed to be a scare tactic but instead is supposed to provide an accurate view of their usage.
 
+**Here is an image of the Stats page the Lucas designed that tracks usage by what apps are being used the most**
+
 ![statPage](/Media/StatsPage.png)
+
+**Here Lucas has created pages for daily, weekly, and monthly charts tracking usage over those time periods. These pages also include the total amount of screen time per week and month. This metric is something that we have not seen included in many screen time tracking applications, and we believe it is a very missed opportunity to increase awareness about actual total times that people are spending on phones.**
+
 ![WeekandMonth](/Media/WeeklyMonthlyPage.png)
 
 
