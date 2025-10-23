@@ -39,9 +39,19 @@ For our prototype plan, we made a wireframe app to communicate our desired funct
 2. Making it social to deal with accountability
 3. Adding an in-depth statistics page that shows rate over time 
 
-### Interaction Between Screens
-Here we show a very basic interaction between the different screens of the app. 
-![interactionsimage](/Media/InteractionsBetweenScreens.png)
+### Widget-App Combination
+Making this a widget-app combination allows us to address one of the big problems areas that we learned about in our user research: awareness. Many of the survey responses indicated that a large number of users were not aware that their screen time was so high. Most smart phones have a screen time graph in their settings but most users did not make the effort to regularly check. Therefore, we decided to make this an app that would display daily time usage and weekly average on the home screen of the device. 
+
+**Here I have created a wireframe to show how the widget might look and it's afforded functionalities**
+![widgetImage](/Media/WidgetFunctionality.png)
+
+**Here is an example of how it might look on an IOS home screen**
+![widgetOnHomescreen](/Media/WidgetOnIOS.png)
+
+### Making it Social 
+A large part of this project focuses on how accountability can help people with addiction. We have added a function where user's screen times are shared with their friends and so they can see how their time compares to the people around them. 
+
+![friendsPage](/Media/FriendsPage.png)
 
 
 
