@@ -10,7 +10,7 @@ research & synthesis, problem statement, concept options, decision rationale.
 
 ## User and Context
 
-Gen-Z is spending unprecedented amounts of time on their phone, with many referring to screen time as an unwilling addiction. My partner and I, eager to make a change to this issue, are looking to our generation for answers on what they need and want in order to curb their usage. Through a series of user research techniques [see Maya's Weekly Journal Week 3 for insights and spreadsheets](/Maya's WeeklyJournal/WeeklyJournal.md), we have come to find three areas of challenge that our users are eager to address with their screen time usage: 
+Gen-Z is spending unprecedented amounts of time on their phone, with many referring to screen time as an unwilling addiction. My partner and I, eager to make a change to this issue, are looking to our generation for answers on what they need and want in order to curb their usage. Through a series of user research techniques (See Maya's Weekly Journal Week 3 for more information about insights), we have come to find three areas of challenge that our users are eager to address with their screen time usage: 
 
 1. Lack of awareness of screen time led
 2. Many wanted to lower their time but didn't know how
