@@ -19,7 +19,7 @@ Gen-Z is spending unprecedented amounts of time on their phone, with many referr
 These two insights led to the development of our two problem statements: 
 **How might we help Gen-Z reclaim time spent on their phones so they can enjoy their youth and spend time on things they want to do?**
 
-Our solution to this problem relies on awareness and social accountability to address the addiciton aspect of this issue. 
+Our solution to this problem relies on awareness and social accountability to address the addiction aspect of this issue. 
 
 ## Success Criteria
 
@@ -32,4 +32,7 @@ Success for this project relies on user-centered approaches to addiction and rec
 
 ## Lo-Fi Prototype Plan
 
-For our prototype plan, we made a wireframe app to communicate our desired functions on the app and how a user would interact with it. 
+For our prototype plan, we made a wireframe app to communicate our desired functions on the app and how a user would interact with it. We focused on the interaction between pages, the required screens (Home, Friends, and Stats), and the widget that would be shown on the home screen of your device. 
+
+
+
