@@ -43,15 +43,25 @@ For our prototype plan, we made a wireframe app to communicate our desired funct
 Making this a widget-app combination allows us to address one of the big problems areas that we learned about in our user research: awareness. Many of the survey responses indicated that a large number of users were not aware that their screen time was so high. Most smart phones have a screen time graph in their settings but most users did not make the effort to regularly check. Therefore, we decided to make this an app that would display daily time usage and weekly average on the home screen of the device. 
 
 **Here I have created a wireframe to show how the widget might look and it's afforded functionalities**
+
 ![widgetImage](/Media/WidgetFunctionality.png)
 
 **Here is an example of how it might look on an IOS home screen**
+
 ![widgetOnHomescreen](/Media/WidgetOnIOS.png)
 
 ### Making it Social 
-A large part of this project focuses on how accountability can help people with addiction. We have added a function where user's screen times are shared with their friends and so they can see how their time compares to the people around them. 
+A large part of this project focuses on how accountability can help people with addiction. We have added a function where users' screen times are shared with their friends and so they can see how their time compares to the people around them. We have included visuals to help with a quick visual comparison of times between people. 
 
 ![friendsPage](/Media/FriendsPage.png)
+
+
+### Adding long-term in-depth descriptions
+
+The last important page of our app is the in-depth statistic page. This page collects data from each week and tracks it over the months that you have had the app. The goal of this page is to provide long-term awareness for their patterns of use and how much time it is taking out of their lives over the long term. It is not supposed to be a scare tactic but instead is supposed to provide an accurate view of their usage.
+
+![statPage](/Media/StatsPage.png)
+![WeekandMonth](/Media/WeeklyMonthlyPage.png)
 
 
 
