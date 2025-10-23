@@ -32,7 +32,16 @@ Success for this project relies on user-centered approaches to addiction and rec
 
 ## Lo-Fi Prototype Plan
 
-For our prototype plan, we made a wireframe app to communicate our desired functions on the app and how a user would interact with it. We focused on the interaction between pages, the required screens (Home, Friends, and Stats), and the widget that would be shown on the home screen of your device. 
+For our prototype plan, we made a wireframe app to communicate our desired functions on the app and how a user would interact with it. We focused on the interaction between pages, the required screens (Home, Friends, and Stats), and the widget that would be shown on the home screen of your device. Here I will discuss three important design decisions that we made and how they align with out goals and problem statement. 
+
+**Design Choices:**
+1. Making it a widget/app combination
+2. Making it social to deal with accountability
+3. Adding an in-depth statistics page that shows rate over time 
+
+### Interaction Between Screens
+Here we show a very basic interaction between the different screens of the app. 
+![interactionsimage](/Media/InteractionsBetweenScreens.png)
 
 
 
