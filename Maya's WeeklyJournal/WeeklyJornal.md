@@ -1,4 +1,6 @@
 # Week 1
+
+_September 17th_
 ### Description
  Gen Z is seeing an unprecedented new addiction: screen time. With young people, including ourselves, spending anywhere from 3-7 hours per day on their phones, many different apps and self-improvement mantras have been trying to help. I, personally, have tried many different routes to decreasing my screen time, but have only found one that actually works: accountability. For our capstone, we are attempting to create a mobile application that can track and share screen time data across different users with the idea of gamification and a fun/interactive UI. The goal is to allow users a tool to better monitor their own and their friends' screen times to add accountability to addiction. 
  ## Designing for the Socialization of Self-Improvement
@@ -15,6 +17,9 @@ Furthermore, screen time will be organized into categories depending on what you
 
 
 # Week 2
+
+_September 24th_ 
+
 **Empathy Interview**
   - Interview with Rachel
     1. 5 hours average
@@ -47,6 +52,9 @@ Each week, we calculate our own average daily screen time and then compare it wi
 4. People obviously want to lower their screentime, but what is the barrier? Why have they been trying with no success, and how can we bypass the mental block?
 
 # Week 3
+
+_October 1st_
+
 **Define**
 
 
@@ -76,9 +84,30 @@ _Prompt 1_: Here are answers to a Google form we sent about Gen-Z's screen time 
 6. Social Media as Biggest Hook
    - "TikTok, Instagram Reels, and scrolling are the main culprits mentioned."
   
+<div align="center">
+
 <img width="418" height="170" alt="image" src="https://github.com/user-attachments/assets/da53fdad-9325-4d37-ae00-f4d32ba805a1" />
+
+<p><em>Primary Phone Usage</em></p>
+
+</div>
+
+<div align="center">
+
 <img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/80cdd65f-8ee6-41a9-8c5a-70a27ed4471f" />
+
+<p><em>Secondary Phone Usage</em></p>
+
+</div>
+
+<div align="center">
+
 <img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/6b98aaf6-e7dd-4bea-8af4-16495cb8d868" />
+
+<p><em>Tertiary Phone Usage</em></p>
+
+</div>
+
 
 Based on the data most used apps are: Social Media, Texting and Facetiming, and Watching Shows
 
@@ -91,6 +120,9 @@ Highest: 16 hr per day
 Lowest: 2.45 hr per day
 
 # Week 4
+
+_October 8th_
+
 **Ideate 1**
 
 **Brainstorming**
@@ -103,17 +135,38 @@ Seeing the ideas in visuals instead of just written or spoken provided us with a
 
 I have also included a basic mood board that shows some of the visuals we saw and were inspired by when designing our app. They are different forms of graphs and IOS widgets. This was important to gather inspiration as well as understand the limits and affordances of the IOS app widget space. 
 
-<img src="https://github.com/user-attachments/assets/a2863ff3-b959-4334-bfba-54d48b09804a" width="50%">
-<img src="https://github.com/user-attachments/assets/5a33ef3d-3ac1-45b2-a434-b57b53f9c5fe" width="50%">
-<img src="https://github.com/user-attachments/assets/1ce0a331-c68b-4609-a484-771bc57a18ea" width="50%">
-<img src="https://github.com/user-attachments/assets/e16793cf-c3ff-4606-bf92-86fce8c943eb" width="50%">
+<div align="center">
+
+<img width="418" height="170" alt="image" src="https://github.com/user-attachments/assets/da53fdad-9325-4d37-ae00-f4d32ba805a1" />
+
+<img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/80cdd65f-8ee6-41a9-8c5a-70a27ed4471f" />
+
+<img width="415" height="160" alt="image" src="https://github.com/user-attachments/assets/6b98aaf6-e7dd-4bea-8af4-16495cb8d868" />
+
+</div>
+
 
 **Final Concepts** 
 
 Finally, we chose three concepts from the brainstorm that we would like to include in our final and drew out the ideas that would be important to create in our first prototype. 
 
-<img src="https://github.com/user-attachments/assets/f32380de-7061-48f8-a820-0b554677cf19" width="50%">
-<img src="https://github.com/user-attachments/assets/725ef554-966f-4904-b270-cb21fa8ed6a7" width="50%">
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/f32380de-7061-48f8-a820-0b554677cf19" width="90%">
+      <p><em></em>Final Concept: Widget and Long Term Tracking</p>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/725ef554-966f-4904-b270-cb21fa8ed6a7" width="90%">
+      <p><em>Final Concept: Friend Screen</em></p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
 
 
 
