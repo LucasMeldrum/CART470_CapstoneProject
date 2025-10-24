@@ -1,13 +1,3 @@
-Process Journal Part 1 (max. 3 pages or equivalent visual doc): 
-(1) user/context insights; 
-(2) problem statement & success criteria; 
-(3) 2–3 concepts with selection matrix; 
-(4) lo-fi prototype plan.
-
-How do I, as a designer, communicate professionally to my clients the work that I am doing?
-
-research & synthesis, problem statement, concept options, decision rationale.
-
 ## User and Context
 
 Gen-Z is spending unprecedented amounts of time on their phone, with many referring to screen time as an unwilling addiction. My partner and I, eager to make a change to this issue, are looking to our generation for answers on what they need and want in order to curb their usage. Through a series of user research techniques (see Maya's Weekly Journal Week 3 for insights and spreadsheets), we have come to find three areas of challenge that our users are eager to address with their screen time usage: 
