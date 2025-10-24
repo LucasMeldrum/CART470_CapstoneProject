@@ -2,11 +2,12 @@
 
 Gen-Z is spending unprecedented amounts of time on their phone, with many referring to screen time as an unwilling addiction. My partner and I, eager to make a change to this issue, are looking to our generation for answers on what they need and want in order to curb their usage. Through a series of user research techniques (See Maya's Weekly Journal Week 3 for more information about insights), we have come to find three areas of challenge that our users are eager to address with their screen time usage: 
 
-1. Lack of awareness of screen time led
-2. Many wanted to lower their time but didn't know how
-3. Many cited this as feeling like an 'addiction' 
+1. Lack of awareness of their personal screen time 
+2. A want to lower their time but not knowing how
+3. Many cited this as feeling like an uncontrollable addiction
 
-These two insights led to the development of our two problem statements: 
+These two insights led to the development of our problem statement:
+
 **How might we help Gen-Z reclaim time spent on their phones so they can enjoy their youth and spend time on things they want to do?**
 
 Our solution to this problem relies on awareness and social accountability to address the addiction aspect of this issue. 
@@ -23,9 +24,11 @@ Success for this project relies on user-centered approaches to addiction and rec
 
 For our prototype plan, we made a wireframe app to communicate our desired functions on the app and how a user would interact with it. We focused on the interaction between pages, the required screens (Home, Friends, and Stats), and the widget that would be shown on the home screen of your device. Here I will discuss three important design decisions that we made and how they align with out goals and problem statement. 
 
+_Disclaimer: An outline for the prototype was made using Figma's AI Wireframe Assistant. The bulk of the design, visuals, and concept was made completely by us but we did use it to create a template for the app interface._  
+
 **Design Choices:**
 1. Making it a widget/app combination
-2. Making it social to deal with accountability
+2. Making it social to increase accountability related to addiciton
 3. Adding an in-depth statistics page that shows rate over time 
 
 [Link to Figma Project](https://www.figma.com/design/YsV741BtZr4vviMWGTv08Z/Unplug?node-id=0-1&t=ErSZV50v68XLT3qO-1)
@@ -35,16 +38,34 @@ Making this a widget-app combination allows us to address one of the big problem
 
 **Here I have created a wireframe to show how the widget might look and it's afforded functionalities**
 
-![widgetImage](/Media/WidgetFunctionality.png)
+<div align="center">
+
+<img src="/Media/WidgetFunctionality.png" alt="widgetImage" width="40%" />
+
+<p><em>Widget functionality overview</em></p>
+
+</div>
 
 **Here is an example of how it might look on an IOS home screen**
 
-![widgetOnHomescreen](/Media/WidgetOnIOS.png)
+<div align="center">
+
+<img src="/Media/WidgetOnIOS.png" alt="widgetOnHomescreen" width="40%" />
+
+<p><em>Widget displayed on the iOS home screen</em></p>
+
+</div>
 
 ### Making it Social 
 A large part of this project focuses on how accountability can help people with addiction. We have added a function where users' screen times are shared with their friends and so they can see how their time compares to the people around them. We have included visuals to help with a quick visual comparison of times between people. 
 
-![friendsPage](/Media/FriendsPage.png)
+<div align="center">
+
+<img src="/Media/FriendsPage.png" alt="friendsPage" width="40%" />
+
+<p><em>Figure 3: Friends page overview</em></p>
+
+</div>
 
 
 ### Adding long-term in-depth descriptions
@@ -53,11 +74,48 @@ The last important page of our app is the in-depth statistics page. This page co
 
 **Here is an image of the Stats page the Lucas designed that tracks usage by what apps are being used the most**
 
-![statPage](/Media/StatsPage.png)
+<div align="center">
+
+<img src="/Media/StatsPage.png" alt="statspage" width="40%" />
+
+<p><em>Friends Page</em></p>
+
+</div>
 
 **Here Lucas has created pages for daily, weekly, and monthly charts tracking usage over those time periods. These pages also include the total amount of screen time per week and month. This metric is something that we have not seen included in many screen time tracking applications, and we believe it is a very missed opportunity to increase awareness about actual total times that people are spending on phones.**
 
-![WeekandMonth](/Media/WeeklyMonthlyPage.png)
+<div align="center">
 
+<img src="/Media/WeeklyMonthlyPage.png" alt="monthlypage" width="40%" />
+
+<p><em>Monthly and Weekly Long Term Tracking</em></p>
+
+</div>
+
+## Usability Apects
+
+Here, we have added a home screen and a map detailing the interaction of the different pages and how a user may experience the app. Our goal is to make it simple and easy to use with a front page dashboard that can give you immediate insights. This should hopefully lower the amount of time you need to have the app open. 
+
+
+<div align="center">
+
+<img src="/Media/HomeScreen.png" alt="homescreen" width="40%" />
+
+<p><em>Home Screen Example</em></p>
+
+</div>
+
+
+<div align="center">
+
+<img src="/Media/InteractionsBetweenScreens.png" alt="monthlypage" width="40%" />
+
+<p><em>Screen Interaction Map</em></p>
+
+</div>
+
+## Future Objectives
+
+With this wire frame, we are aiming to work out the usability issues associated with this app. In order to achieve our success measures, we are planning on conducting further interviews with people from our target users to discuss its feasibility and their overall willingness and eagerness to use the app. A primary concern is the amount of features that we have given the app currently, which may impede on its goal of lower screen time. The next iteration will involve a higher fidelity prototype with input from potential users as to which features they care about and which they do not.  
 
 
