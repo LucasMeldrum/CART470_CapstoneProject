@@ -51,9 +51,83 @@ If we can users achieve these goals this would sove their problems/addictions th
 
 ### Reasoning
 **Idea #3/Unplug** provides the best balance between usability, motivation, and sustainability.  
-While **Idea 1** offers advanced analytics and **Idea 2** focuses on social gamification, **Idea 3** excels in simplicity and clarity presenting essential data without overwhelming the user.  
+While **Idea #1** offers advanced analytics and **Idea #2** focuses on social gamification, **Idea #3** excels in simplicity and clarity presenting essential data without overwhelming the user.  
 Its provide a clean interface and simple, easy to use, functions that allow the user to not focus on the app but on their screen time. It provides similar functions to the other ideas but simplifies them and keeps the essential components which allow the user to reach their goals while not remaining on their phone for a long time. 
 
 Furthermore, this idea's simplicity allows for the use of widgets, which let the user quickly/constantly check their screen time and not be occupied with viewing the UI of the app (examples to follow).
 
 ## Lo-fi Prototype
+For our [low fidelity prototype](https://www.figma.com/design/YsV741BtZr4vviMWGTv08Z/Unplug?node-id=0-1&t=ErSZV50v68XLT3qO-1), we used Figma to collaborate together to develop a simple wireframe that would allow users to test a shell of the app. This, in the future, would let us determine if we are on the right path in the most efficient way to see what is working/what is not. It is easily modifyable and simple in nature to allow for changes as we go.
+
+Using an AI plugin for the template and following idea #3 we created a widget based wireframe with the main functionalities of the app. I focused on the home page and statistics page, while my partner focused on the widget and friends page. Together we focused on the simple design and easy to use theme.
+
+### The Widgets
+With widgets, we aim to reduce the users active screen time on apps even more by giving access to the important app features just by looking at your home page:
+<div align="center">
+
+<img src="/Media/WidgetOnIOS.png" alt="widgetOnHomescreen" width="40%" />
+
+<p><em>Widget Displayed on  iOS Home Screen</em></p>
+
+</div>
+
+<div align="center">
+
+<img src="/Media/WidgetFunctionality.png" alt="widgetImage" width="100%" />
+
+<p><em>Widget Functionality Overview</em></p>
+
+</div>
+
+### Home Page
+The *Home* page has most of the esssential information of the app showcasing in focus the user's screen time and how much it has increased/decreased based on the previous day. On top of this, it has main stats such as what apps/activity you use the most, your friend's times, and your weekly average. It shows this info while keeping a simple format for ease of use/visibility. 
+<div align="center">
+
+<img src="/Media/HomeScreen.png" alt="homescreen" width="40%" />
+
+<p><em>Home Screen Ovewview</em></p>
+
+</div>
+
+### Stats Page | Daily-Weekly-Monthly
+The *Stats* page dives a little deeper on the user's activity with a focus on the time spent within a day, week or month on your phone and what impacts/insights that has had on your life. Tracking all essential information while still being simple enough for the users.
+<div align="center">
+
+<img src="/Media/StatsPage.png" alt="statspage" width="40%" />
+
+<p><em>Stats Page Overview</em></p>
+
+</div>
+
+Dividing the information into 3 categories of time:
+
+<div align="center">
+
+<img src="/Media/WeeklyMonthlyPage.png" alt="monthlypage" width="40%" />
+
+<p><em>Daily, Weekly and Monthly Long Term Tracking</em></p>
+
+</div>
+
+### Friends Page
+The *Friends* page using a versus concept to gamify the app and how that competitive feeling. It uses simple bar graphs to compare how you are doing against your friends while still making it easy and accessible for the users to understand.
+<div align="center">
+
+<img src="/Media/FriendsPage.png" alt="friendsPage" width="40%" />
+
+<p><em>Friends Page Overview</em></p>
+
+</div>
+
+### Wireframe | Functionality
+Finally, this low fidelity prototype is functional and will be tested with users in the upcoming weeks to determine what changes need to be made, what works, what doesn't, etc. 
+<div align="center">
+
+<img src="/Media/InteractionsBetweenScreens.png" alt="monthlypage" width="100%" />
+
+<p><em>Screen Interaction Map</em></p>
+
+</div>
+
+## Future Objectives 
+With our low-fidelity prototype created and functional, our future objective will be to send it off to users, do usability testing, and determine what succeeds and what does not. This will allow us to keep re-iterating at a prototype level before commiting to final design and production. Collaboration and feedback from users will also help to design new features to ensure they add value without creating unnecessary distractions. The goal is to refine and expand the app’s core functionality while maintaining its minimalistic approach and solving the needs of our users.
