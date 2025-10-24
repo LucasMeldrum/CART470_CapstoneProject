@@ -33,7 +33,7 @@ _Disclaimer: An outline for the prototype was made using Figma's AI Wireframe As
 
 [Link to Figma Project](https://www.figma.com/design/YsV741BtZr4vviMWGTv08Z/Unplug?node-id=0-1&t=ErSZV50v68XLT3qO-1)
 
-### Widget-App Combination
+### 1. Widget-App Combination
 Making this a widget-app combination allows us to address one of the big problems areas that we learned about in our user research: awareness. Many of the survey responses indicated that a large number of users were not aware that their screen time was so high. Most smart phones have a screen time graph in their settings but most users did not make the effort to regularly check. Therefore, we decided to make this an app that would display daily time usage and weekly average on the home screen of the device. 
 
 **Here I have created a wireframe to show how the widget might look and it's afforded functionalities**
@@ -56,7 +56,7 @@ Making this a widget-app combination allows us to address one of the big problem
 
 </div>
 
-### Making it Social 
+### 2. Making it Social 
 A large part of this project focuses on how accountability can help people with addiction. We have added a function where users' screen times are shared with their friends and so they can see how their time compares to the people around them. We have included visuals to help with a quick visual comparison of times between people. 
 
 <div align="center">
@@ -68,7 +68,7 @@ A large part of this project focuses on how accountability can help people with 
 </div>
 
 
-### Adding long-term in-depth descriptions
+### 3. Adding long-term in-depth descriptions
 
 The last important page of our app is the in-depth statistics page. This page collects data from each week and tracks it over the months that you have had the app. The goal of this page is to provide long-term awareness for their patterns of use and how much time it is taking out of their lives over the long term. It is not supposed to be a scare tactic but instead is supposed to provide an accurate view of their usage.
 
@@ -92,7 +92,7 @@ The last important page of our app is the in-depth statistics page. This page co
 
 </div>
 
-## Usability Apects
+## Usability Aspects
 
 Here, we have added a home screen and a map detailing the interaction of the different pages and how a user may experience the app. Our goal is to make it simple and easy to use with a front page dashboard that can give you immediate insights. This should hopefully lower the amount of time you need to have the app open. 
 
