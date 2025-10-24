@@ -110,9 +110,7 @@ I chose to come up with as many ideas as possible and write down notes for each 
 - Pickup notifications
 - Weekly breakdowns
 
-
 ---
-
 
 ## Top Ideas to Move Forward With
 
