@@ -167,6 +167,26 @@ Finally, we chose three concepts from the brainstorm that we would like to inclu
 
 </div>
 
+# Week 5
+
+**See Design Process Journal 1**
+
+
+# Week 6
+
+**Prototype 1**
+
+For this week, we are testing our app's wireframe with real users who can give feedback on usability and what features they like and don't like. 
+
+Our objectives are to:
+1. Find usability errors and confusion
+2. See what features users enjoy and what they don't
+3. See if they think it would actually be helpful
+4. Gain constructive feedback for next iteration
+
+
+
+
 
 
 
