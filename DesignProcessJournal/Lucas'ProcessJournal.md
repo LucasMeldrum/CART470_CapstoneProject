@@ -21,7 +21,7 @@ Our goals:
 > 3. Create a gamification of reducing screen time
 > 4. Ultimately, have users create a healthy relationship with their phones
 
-If we can users achieve these goals this would sove their problems/addictions they have with their phones and create a proper balance of living in the real world and being comfortable using their phones. Our goal is to help our generation as much as possible so they no longer feel stressed about how they use their phones. 
+If we can users achieve these goals this would solve their problems/addictions they have with their phones and create a proper balance of living in the real world and being comfortable using their phones. Our goal is to help our generation as much as possible so they no longer feel stressed about how they use their phones. 
 
 ## Selection Matrix - Screen Time App Concepts
 
