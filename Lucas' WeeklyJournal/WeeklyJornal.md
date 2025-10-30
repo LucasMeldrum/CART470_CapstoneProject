@@ -124,3 +124,65 @@ These concepts stood out as high-impact and feasible:
 6. Reflection Dashboard & Motivation Stats
 
 These ideas will lead into **Week 5 prototyping and wireframing** where we can see what is feasible and work!
+
+# Week 5
+[Process Report](/DesignProcessJournal/Lucas'ProcessJournal.md) + [Lo-Fi Prototype]((https://www.figma.com/design/YsV741BtZr4vviMWGTv08Z/Unplug?node-id=0-1&t=ErSZV50v68XLT3qO-1))
+
+# Week 6
+
+### Testing the Lo-Fi Prototype
+
+This week focused on setting up the testing of our **lo-fi prototype** we created in Week 5. The goal of this phase was to **evaluate the usability, clarity, and emotional response** of our design through user testing.
+
+By observing how users are when interacting with the prototype, we aimed to gain insight into how sucessful our app is based on our previous goals mentioned in [the process journal](/DesignProcessJournal/Lucas'ProcessJournal.md).
+
+
+### Objectives
+- Identify **confusing interactions or unclear UI elements**
+- Observe **user reactions** to the gamified elements and visuals
+- Determine **which features motivate users** to reduce their screen time
+- Gather **constructive feedback** to guide our next iteration (mid-fi/implementation prototype)
+
+### Participants
+We want to recruit 3–5 participants from our target demographic: Gen-Z aged 18-24 who have expressed concern about their screen time.
+
+### Step-by-Step Plan
+
+1. **Introduction (2 minutes)**
+   - Explain that this is an early prototype focused on layout and flow.
+   - Emphasize that *we’re testing the design, not the user.*
+   - Ask for honest, open feedback, there are no wrong answers.
+
+2. **Observation (5–7 minutes)**
+   - Present the participant with a few specific tasks to complete.
+   - Observe their behavior, what they are confused about, and comments they may have.
+   - Finding what fails in this point is significant.
+
+3. **Feedback (5 minutes)**
+   - Ask follow up questions about their experience, what felt intuitive, and what could be improved focusing on edge cases.
+
+---
+
+### Example Testing Script
+
+**Introduction:**
+> “Thank you for taking the time to help us test our prototype. This is a very early version of our app that’s meant to help people reduce their screen time using gamified challenges and social competition. We’re not testing you — we’re testing how well our design communicates its goals. Please think out loud as you go, and tell us what’s confusing or what you like.”
+
+**Tasks:**
+1. “Imagine you just opened the app for the first time. Can you tell what this app does?”
+2. “Try to navigate to the different sections and see what you understand from each one.”
+3. “You’ve been using your phone less today how would you check your progress vs others? how about stats?”
+
+**Follow-up Questions:**
+- “What part of the app felt the most eye-catching or inspiring?”
+- “Was there anything confusing or unnecessary?”
+- “Did this app make you feel more aware of your screen time?”
+- “What would you change to make this app more engaging?”
+
+---
+
+### Data Collection
+Once testing is done data will be analyzed, reviewed, and added to the weekly documentation
+
+### Next Steps
+Based on the data, modifications will be done to our lo-fi prototype and we will re-iterate based on user's comments. The next step will be to begin implementation of our application after changes are finished.
