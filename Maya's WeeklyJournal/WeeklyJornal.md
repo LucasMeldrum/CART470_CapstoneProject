@@ -184,6 +184,24 @@ Our objectives are to:
 3. See if they think it would actually be helpful
 4. Gain constructive feedback for next iteration
 
+We were able to do three interviews with people ages 18-24. In these interviews we employed the loose interview structure outlined in Lucas's Weekly Report to gain feedback on our preliminary wireframe. Here were some of the most important points of feedback for the next iteration:
+
+## 1. Widget-clock logo communication
+
+The design for our circular widget was supposed to show time awake, time asleep, and the time that is taken out of your day on you phone. We designed it like this to attempt to show people a more realistic view of the proportion of time that is being taken from their day since, for at least a third of the day, they are sleeping. This however, was not communicated well with the visual provided. Users stated that the intention made sense once it was explained but was not obvious. They liked the idea of seeing the proportion with sleeping included but a better illustration will need to be developed. 
+
+<div align="center">
+
+<img src="/Media/WidgetFunctionality.png" alt="widgetImage" width="40%" />
+
+<p><em>Widget functionality overview</em></p>
+
+</div>
+
+## 2. Graph Readability and Necessity
+
+On the stats page, users complained that the graphs were not very readable and comprehensible. The graphs that lacked a Y axis (that would show the amount of time actually spent) and just had the months or weeks on the x axis, were too simple and needed more visual information. 
+
 
 
 
