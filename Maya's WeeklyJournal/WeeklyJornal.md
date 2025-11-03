@@ -186,9 +186,15 @@ Our objectives are to:
 
 We were able to do three interviews with people ages 18-24. In these interviews we employed the loose interview structure outlined in Lucas's Weekly Report to gain feedback on our preliminary wireframe. Here were some of the most important points of feedback for the next iteration:
 
-## 1. Widget-clock logo communication
+### 1. Widget-clock logo communication
 
 The design for our circular widget was supposed to show time awake, time asleep, and the time that is taken out of your day on you phone. We designed it like this to attempt to show people a more realistic view of the proportion of time that is being taken from their day since, for at least a third of the day, they are sleeping. This however, was not communicated well with the visual provided. Users stated that the intention made sense once it was explained but was not obvious. They liked the idea of seeing the proportion with sleeping included but a better illustration will need to be developed. 
+
+Solutions may include:
+- Reworking the image so that it is just a 12 hour clock instead of 24 so that it is more readable
+- Adding numbers to the clock face
+- Instead of a clock, using another visual like a water cup being filled up
+- Adding text such as "Time Awake", "Time Asleep", "Time on Phone" or numbers to show these hours
 
 <div align="center">
 
@@ -198,12 +204,53 @@ The design for our circular widget was supposed to show time awake, time asleep,
 
 </div>
 
-## 2. Graph Readability and Necessity
+### 2. Graph Readability and Necessity
 
-On the stats page, users complained that the graphs were not very readable and comprehensible. The graphs that lacked a Y axis (that would show the amount of time actually spent) and just had the months or weeks on the x axis, were too simple and needed more visual information. 
+On the stats page, users complained that the graphs were not very readable and comprehensible. The graphs that lacked a Y axis (that would show the amount of time actually spent) and just had the months or weeks on the x axis, were too simple and needed more visual information. The graph for the monthly average is shown below for an example of this issue. They said they would like all the months to be labeled, not just every other, and would like to see the hour count on the Y axis of the graph. 
+
+<div align="center">
+
+<img src="/Media/MonthlyAverageGraphClose.png" alt="widgetImage" width="40%" />
+
+<p><em>Monthly Graph Issue</em></p>
+
+</div>
+
+There was also a portion of the home page that interviewees agreed seemed not very necessary. One user said that instead of this chart they would have prefered to have the monthly or weekly graph in this spot on the home page. 
+
+<div align="center">
+
+<img src="/Media/TimeSpendClose.png" alt="widgetImage" width="40%" />
+
+<p><em>Chart of Time Spend on Certain Apps</em></p>
+
+</div>
+
+Solutions may include:
+- Adding more words and numbers to the simple graphs
+- Replacing the home page chart with the weekly graph
 
 
+### 3. The Stats They Always Wanted!
 
+One interviewee reported that her interest in the app was less centered around the social aspect and more around the ability to see long term screen time statistics and trends. She said that she would place a high importance on seeing the months, weeks, and maybe even years of her trending statistics. She said she would enjoy being able to see the statics of her friends aswell. She also said that she really liked the 'Pickups Per Day' number and wanted to make sure that stayed in the final version. 
+
+Solutions may include:
+- Adding long term statitics sharing between friends
+- Pushing the 'Pickups per day' number to the home screen as well as the stats and friends page
+
+
+### 4. Data Privacy
+
+A user described wanting a more fleshed out idea of how friending others would work and to make sure that random people would not be able to use or see her data. She said she would only be likely to use the app if you needed to approve friends and wanted to option to turn off sharing her screen time.
+
+Solutions may include:
+- Adding a figma interface to show users how they would add friends and the need to accept a friend request
+- Adding a feature to stop sharing your data to your friends
+- Making sure users are aware of the privacy settings that are in place
+
+
+_The insights from this interview will guide us towards our design sprint next week. We will be focusing on solutions to these issues and while also taking into account the parts that users most liked. Our goal for the next week will be to have a plan and visual mock ups for our proposed solutions. The week after we will have a finalized UI that implements these design solutions. _
 
 
 
