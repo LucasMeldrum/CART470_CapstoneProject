@@ -174,10 +174,11 @@ Finally, we chose three concepts from the brainstorm that we would like to inclu
 
 # Week 6
 
+_October 29th_
+
 **Prototype 1**
 
-For this week, we are testing our app's wireframe with real users who can give feedback on usability and what features they like and don't like. 
-
+For this week, we are testing our app's wireframe with real users who can give feedback on usability and what features they like and don't like. _
 Our objectives are to:
 1. Find usability errors and confusion
 2. See what features users enjoy and what they don't
@@ -252,10 +253,13 @@ Solutions may include:
 
 _The insights from this interview will guide us towards our design sprint next week. We will be focusing on solutions to these issues and while also taking into account the parts that users most liked. Our goal for the next week will be to have a plan and visual mock ups for our proposed solutions. The week after we will have a finalized UI that implements these design solutions. _
 
+# Week 7
 
+_November 5th_
 
+**Implementation**
 
-
+For this week we will be brainstorming solutions to the problems found in our testing phase to be executed for our final product. 
 
 
 
