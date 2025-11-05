@@ -259,7 +259,13 @@ _November 5th_
 
 **Implementation**
 
-For this week we will be brainstorming solutions to the problems found in our testing phase to be executed for our final product. 
+For this week we will be brainstorming solutions to the problems found in our testing phase to be executed for our final product. I will be tackling problems 1- Widget-clock logo communication and 4- Data Privacy. Lucas will be completing the other two in his journal. 
+
+### Problem 1: Widget-Clock Logo Communication
+
+Like stated in my last entry, the widget clock logo was running into readability issues. Users were saying that they were reading it as 'hours spent on your phone during the day vs at night' or weren't understanding the purpose of the night sector at all. Interviewed users did say, however, that once they understood the purpose they liked the idea of being able to see how much time was spend on their phones with the time they are sleeping taken out so they can get a more realistic idea of their usage. 
+
+
 
 
 
