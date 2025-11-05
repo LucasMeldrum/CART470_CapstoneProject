@@ -265,6 +265,28 @@ For this week we will be brainstorming solutions to the problems found in our te
 
 Like stated in my last entry, the widget clock logo was running into readability issues. Users were saying that they were reading it as 'hours spent on your phone during the day vs at night' or weren't understanding the purpose of the night sector at all. Interviewed users did say, however, that once they understood the purpose they liked the idea of being able to see how much time was spend on their phones with the time they are sleeping taken out so they can get a more realistic idea of their usage. 
 
+<div align="center">
+
+<img src="/Media/WidgetRedesign.jpg" alt="widgetImage" width="40%" />
+
+<p><em>Widget Redesigns</em></p>
+
+</div>
+
+To solve this issue I went back to the iteration and ideation stage to come up with some alternative visual examples. Here I have made an effort to distinctly differentiate the time spent sleeping from the awake/screen time section of the graph. This is so that viewers are not confused by the meaning. I also changed the icon to a bed instead of a moon to indicate that it is time sleeping and not just night time. I have also made the decision to only count the time out of a 16 hour period of being awake which will not change per user. In the interview stage it was reccomended that I made the graph more clock-like by adding numbers along the outer rim to show the progression of time more. 
+
+### Problem 4: Data Privacy
+
+The requests from out interviewee were to make sure that the sharing feature was safe and did not leak your informaiton to anyone you didn't explicitly say could view it. With those concerns in mind we made a few decisions that would be the basis for the development of the sharing function:
+
+- Make sure you need to be mutual friends with someone in order to see their screen time
+- Have a function where you can turn screen time sharing off
+- Allow users to block people from adding them
+- No public account viewing- only searching for profiles with accompanying profile pictures
+- No phone number or contact number sharing
+- No sharing birthdays, locations, or any sensitive content
+- When user unfollows a person the person is immediately unable to see their screen time
+
 
 
 
