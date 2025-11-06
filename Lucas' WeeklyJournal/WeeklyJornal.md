@@ -19,14 +19,14 @@ Link to the form: https://docs.google.com/forms/d/e/1FAIpQLSdl6C0oCfMHk6J4hh5uJL
 
 Our results are seperated into quantitative and qualitative data. 
 
-**Average user screen time:** 6 hours and 4 mins.
-**Most used apps:** Messaging, calling facetiming.
-**Second most used apps:** Social media.
-**Third most used apps:** Shows/Movies.
+Average user screen time: 6 hours and 4 mins.
+Most used apps: Messaging, calling facetiming.
+Second most used apps: Social media.
+Third most used apps: Shows/Movies.
 
-Most people were **NOT** satisfied with their screen time and would much rather spend less time on their phones.
+Most people were NOT satisfied with their screen time and would much rather spend less time on their phones.
 
-**EVERYONE** we surveyed find their phone very addicting and hard to stop even if they want to.
+EVERYONE we surveyed find their phone very addicting and hard to stop even if they want to.
 
 From these results we gained great insight on our generation, the struggles with their phone use and how most people want to stop being on their phones as much but find it difficult, like an addiciton. 
 
@@ -72,7 +72,7 @@ With a well defined problem statement and understanding our user's needs and goa
 
 ## Ideate: Exploring Possibilities Through Divergent Thinking
 
-With a strong understanding of our users, their motivations, and our defined problem statement *helping Gen-Z reclaim time spent on their phones*, this week focused on **brainstorming a wide range of ideas** without constraints. Instead of evaluating or filtering, the goal was to **generate as many possibilities as possible**, keeping our past weeks in mind.
+With a strong understanding of our users, their motivations, and our defined problem statement *helping Gen-Z reclaim time spent on their phones*, this week focused on brainstorming a wide range of ideas without constraints. Instead of evaluating or filtering, the goal was to generate as many possibilities as possible, keeping our past weeks in mind.
 
 ### Ideation Strategy Used
 I chose to come up with as many ideas as possible and write down notes for each one. Doing this let my mind flow and wander wherever it wanted to go. This allows for many ideas and even bad ones to lead to ideas that are more developped.
@@ -123,7 +123,7 @@ These concepts stood out as high-impact and feasible:
 5. Minimalist Distraction-Free Mode
 6. Reflection Dashboard & Motivation Stats
 
-These ideas will lead into **Week 5 prototyping and wireframing** where we can see what is feasible and work!
+These ideas will lead into Week 5 prototyping and wireframing where we can see what is feasible and work!
 
 # Week 5
 [Process Report](/DesignProcessJournal/Lucas'ProcessJournal.md) + [Lo-Fi Prototype]((https://www.figma.com/design/YsV741BtZr4vviMWGTv08Z/Unplug?node-id=0-1&t=ErSZV50v68XLT3qO-1))
@@ -132,48 +132,48 @@ These ideas will lead into **Week 5 prototyping and wireframing** where we can s
 
 ### Testing the Lo-Fi Prototype
 
-This week focused on setting up the testing of our **lo-fi prototype** we created in Week 5. The goal of this phase was to **evaluate the usability, clarity, and emotional response** of our design through user testing.
+This week focused on setting up the testing of our lo-fi prototype we created in Week 5. The goal of this phase was to evaluate the usability, clarity, and emotional response of our design through user testing.
 
 By observing how users are when interacting with the prototype, we aimed to gain insight into how sucessful our app is based on our previous goals mentioned in [the process journal](/DesignProcessJournal/Lucas'ProcessJournal.md).
 
 
 ### Objectives
-- Identify **confusing interactions or unclear UI elements**
-- Observe **user reactions** to the gamified elements and visuals
-- Determine **which features motivate users** to reduce their screen time
-- Gather **constructive feedback** to guide our next iteration (mid-fi/implementation prototype)
+- Identify confusing interactions or unclear UI elements
+- Observe user reactions to the gamified elements and visuals
+- Determine which features motivate users to reduce their screen time
+- Gather constructive feedback to guide our next iteration (mid-fi/implementation prototype)
 
 ### Participants
 We want to recruit 3–5 participants from our target demographic: Gen-Z aged 18-24 who have expressed concern about their screen time.
 
 ### Step-by-Step Plan
 
-1. **Introduction (2 minutes)**
+1. Introduction (2 minutes)
    - Explain that this is an early prototype focused on layout and flow.
    - Emphasize that *we’re testing the design, not the user.*
    - Ask for honest, open feedback, there are no wrong answers.
 
-2. **Observation (5–7 minutes)**
+2. Observation (5–7 minutes)
    - Present the participant with a few specific tasks to complete.
    - Observe their behavior, what they are confused about, and comments they may have.
    - Finding what fails in this point is significant.
 
-3. **Feedback (5 minutes)**
+3. Feedback (5 minutes)
    - Ask follow up questions about their experience, what felt intuitive, and what could be improved focusing on edge cases.
 
 ---
 
 ### Example Testing Script
 
-**Introduction:**
+Introduction:
 > “Thank you for taking the time to help us test our prototype. This is a very early version of our app that’s meant to help people reduce their screen time using gamified challenges and social competition. We’re not testing you — we’re testing how well our design communicates its goals. Please think out loud as you go, and tell us what’s confusing or what you like.”
 
-**Tasks:**
+Tasks:
 1. “Imagine you just opened the app for the first time. Can you tell what this app does?”
 2. “Try to navigate to the different sections and see what you understand from each one.”
 3. “You’ve been using your phone less today how would you check your progress vs others? how about stats?”
 
-**Follow-up Questions:**
+Follow-up Questions:
 - “What part of the app felt the most eye-catching or inspiring?”
 - “Was there anything confusing or unnecessary?”
 - “Did this app make you feel more aware of your screen time?”
@@ -186,3 +186,50 @@ Once testing is done data will be analyzed, reviewed, and added to the weekly do
 
 ### Next Steps
 Based on the data, modifications will be done to our lo-fi prototype and we will re-iterate based on user's comments. The next step will be to begin implementation of our application after changes are finished.
+
+# Week 7
+After testing with users, 4 main problems arose. I will be finding solutions/changes for problems 2 and 3 found from the user testing documented in Maya's weekly journal. After these changes are documented, we can finally begin implementing our app.
+
+## Problem #2: Graph Readability and Necessity
+### Problem Summary
+Users found the graphs on the stats page hard to read and lacking meaningful information. The graphs did not include a Y-axis showing time spent and not all months were labeled on the X-axis. Additionally, some users questioned the usefulness of a chart on the home page that could be replaced with a more informative stats graph.
+
+### Proposed Solutions
+
+#### 1. Enhance Graph Readability
+- Add a Y-axis that clearly shows the amount of time (hours or minutes) spent.  
+- Label all months or weeks on the X-axis for clarity.  
+- Include data point markers and hover tooltips that display exact values.  
+- Use color coding or subtle shading to distinguish different time periods (e.g., weekdays vs. weekends).
+
+#### 2. Provide Contextual Information
+- Add a legend explaining what the graph represents (e.g., “Average daily screen time per month”).  
+- Include percentage change indicators such as “+12% from last month” to make trends easier to interpret.
+
+#### 3. Reorganize the Home Page
+- Replace the “Time Spent on Certain Apps” chart with the weekly or monthly screen time graph, which users found more meaningful.  
+- Alternatively, allow users to customize what appears on the home page (e.g., choose between “App Usage Breakdown” or “Weekly Screen Time”).
+
+---
+
+## 3. The Stats They Always Wanted!
+
+### Problem Summary
+Users expressed interest in more long-term screen time statistics and trends (months, weeks, years).  
+They also wanted the ability to compare stats with friends. The “Pickups Per Day” metric was highlighted as a favorite feature that should remain visible across multiple screens.
+
+### Proposed Solutions
+
+#### 1. Enable Statistics Sharing Between Friends
+- Add a “Compare Stats” feature to view friends’ summaries (with customizable privacy options).  
+- Include a friendly leaderboard or comparison graphs (e.g., “Your average screen time vs. your friends”).
+
+#### 2. Highlight Key Metrics Like “Pickups Per Day”
+- Display the “Pickups Per Day” metric prominently on the home screen, as well as on the Stats and Friends pages.  
+- Optionally include trend indicators showing increases or decreases compared to the previous week.
+
+#### 3. Personalization
+- Allow users to customize their dashboard, selecting which metrics (e.g., pickups, screen time, app usage) they want to prioritize.
+
+
+
