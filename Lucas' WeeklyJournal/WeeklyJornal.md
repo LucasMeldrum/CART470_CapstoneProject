@@ -231,5 +231,17 @@ They also wanted the ability to compare stats with friends. The “Pickups Per D
 #### 3. Personalization
 - Allow users to customize their dashboard, selecting which metrics (e.g., pickups, screen time, app usage) they want to prioritize.
 
+# Week 8
+This week we began implementing the app:
+
+- Set up the development environment for Flutter and Android, including VS Code and the Android emulator.
+- Researched how API calls are handled in Flutter, focusing on using `http` and `dio` packages.
+- Reviewed Android and Flutter documentation to understand best practices for networking, asynchronous requests, and JSON parsing.
+- Created small test examples to confirm successful API requests and responses.
+- Documented the process in version control to ensure a smooth workflow for future development.
+
+![Emulation](/Media/Emulation.png)
+
+
 
 
