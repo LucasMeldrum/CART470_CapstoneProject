@@ -287,6 +287,10 @@ The requests from out interviewee were to make sure that the sharing feature was
 - No sharing birthdays, locations, or any sensitive content
 - When user unfollows a person the person is immediately unable to see their screen time
 
+# Week 7
+
+_November 5th_
+
 
 
 
