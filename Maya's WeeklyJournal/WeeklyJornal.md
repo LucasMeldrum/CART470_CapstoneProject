@@ -307,7 +307,7 @@ In the next week we are planning on finishing the database structure and the API
 
 <div align="center">
 
-<img width="418" height="170" alt="image" src="/Media/Emulation.png" />
+<img width="418" height="270" alt="image" src="/Media/Emulation.png" />
 
 <p><em>Android Emulator</em></p>
 
