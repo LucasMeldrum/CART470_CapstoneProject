@@ -323,6 +323,13 @@ We are working in Flutter to design the interface and are hoping by next week to
 
 The prototype of our finished app will likely be a data base that shows detailed mappings of all the data from all the users in the system. It will pull from users screen time tracker built into their phone and display that data to people who have made an account. In our final design process journal, we will describe the features we chose as most important to the app that we needed to implement, and then what a future version of this application would look like. 
 
+<div align="center">
+
+<img width="418" height="270" alt="image" src="/Media/FireBaseScreenshot.png" />
+
+<p><em>Our FireBase Project</em></p>
+
+</div>
 
 
 
