@@ -277,7 +277,7 @@ To solve this issue I went back to the iteration and ideation stage to come up w
 
 ### Problem 4: Data Privacy
 
-The requests from out interviewee were to make sure that the sharing feature was safe and did not leak your informaiton to anyone you didn't explicitly say could view it. With those concerns in mind we made a few decisions that would be the basis for the development of the sharing function:
+The requests from out interviewee were to make sure that the sharing feature was safe and did not leak your information to anyone you didn't explicitly say could view it. With those concerns in mind we made a few decisions that would be the basis for the development of the sharing function:
 
 - Make sure you need to be mutual friends with someone in order to see their screen time
 - Have a function where you can turn screen time sharing off
@@ -287,9 +287,35 @@ The requests from out interviewee were to make sure that the sharing feature was
 - No sharing birthdays, locations, or any sensitive content
 - When user unfollows a person the person is immediately unable to see their screen time
 
-# Week 7
+# Week 8
 
-_November 5th_
+_November 13th_
+
+For this week we are working with the implementation of our app. For the creation of our app, data base, and API calling framework we are using the following tools:
+- Android Studios
+- VS Code
+- Firebase
+- Flutter
+
+We selected these three tools because they are compatible with each other and fill the needs that we have when developing this app. This week we have gotten our Android Smart phone emulator working (so we can see a visual of how the code will look on an actual phone) and have been seperately looking into the API calling mechanism (Lucas) and the database (Maya). The database has been tricky to set up. With the goals of our application, it seems like most of the information can be stored locally on our device, but if we want people to be able to send data to each other we will need a public database that can record and store screen times and averages. 
+
+An integral part of the design of this app is that it is EASY TO USE and takes a short amount of time. We want to avoid having people spend too much time on this app as that would be going against the goal of it. 
+
+As we continue implementation, we are finding some limitations. Our final product will likely be a proof of theory rather than a fully fleshed-out application. However, we will include documentation as to the features we deemed to be very important to the app thorugh the design and interviewing process that we were unable to implement fully. 
+
+In the next week we are planning on finishing the database structure and the API calling mechanism. 
+
+# Week 9
+
+_November 19th_
+
+After further work with the database structure and the API calling mechanism, we had to slightly change our approach. We are first only going to be making the app for Androids, as IOS devices require a paid subscription to have access to screen time tracking data. Androids provide the data in a much more open sources way that we will more easily be able to implement in our final product. 
+
+We are working in Flutter to design the interface and are hoping by next week to have a simple interface with a button that can send data and a real time display of the data in the database. 
+
+The prototype of our finished app will likely be a data base that shows detailed mappings of all the data from all the users in the system. It will pull from users screen time tracker built into their phone and display that data to people who have made an account. In our final design process journal, we will describe the features we chose as most important to the app that we needed to implement, and then what a future version of this application would look like. 
+
+
 
 
 
