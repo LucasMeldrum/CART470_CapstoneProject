@@ -305,6 +305,14 @@ As we continue implementation, we are finding some limitations. Our final produc
 
 In the next week we are planning on finishing the database structure and the API calling mechanism. 
 
+<div align="center">
+
+<img width="418" height="170" alt="image" src="/Media/Emulation.png" />
+
+<p><em>Android Emulator</em></p>
+
+</div>
+
 # Week 9
 
 _November 19th_
