@@ -243,7 +243,23 @@ This week we began implementing the app:
 ![Emulation](/Media/Emulation.png)
 
 # Week 9
+This week was a continuation of the implementation of Unplug. With the emulator set up, it was now time to begin implementation with the API and testing calls to see if I could retreive the screen time of the emulator. 
 
+At first, to access the UsageStatsManager API for screen time, permissions must be enabled by the user. This seemed simple but proved to be a little more challenging. At first, I prompted the user into going into settings and enabling their permissions but on the emulator it did not allow for changes since it was using the Google Play emulation as a source. To work around this, I had to install it using the Google API as the source which then allowed me to change permissions. I then coded a constant check for permissions and logged it in the terminal to see that it was constantly granted
 
+![Permissions](/Media/Permissions.png)
 
+With permissions granted, next step was testing with a simple API call with the button and seeing what information I could grab:
+
+![API_Info](/Media/API_Info.png)
+
+![API_Initial](/Media/API_Initial.png)
+
+With this I can track total screen time by adding all apps that have ran in the foreground and what type of apps they are. 
+
+To make the app actually look like something instead of a button that fetches screen time I used the figma we created to code something very similar and set placeholders for now until the database was completed:
+
+![App_v1](/Media/App_v1.png)
+
+For now a lot is hard coded in until we get the database up and working then we can start implementing properly but the app is progressing nicely!
 
