@@ -1,0 +1,278 @@
+import 'dart:async';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:usage_stats/usage_stats.dart';
+
+void main() {
+  runApp(const UnplugApp());
+}
+
+class UnplugApp extends StatelessWidget {
+  const UnplugApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData.dark().copyWith(
+        primaryColor: Colors.black,
+        scaffoldBackgroundColor: Colors.grey[900],
+        cardColor: Colors.grey[850],
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.blueAccent,
+            padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 24),
+            textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          ),
+        ),
+      ),
+      home: const UsageDashboard(),
+    );
+  }
+}
+
+class UsageDashboard extends StatefulWidget {
+  const UsageDashboard({super.key});
+
+  @override
+  State<UsageDashboard> createState() => _UsageDashboardState();
+}
+
+class _UsageDashboardState extends State<UsageDashboard> {
+  static const platform = MethodChannel('unplug/settings');
+
+  bool _hasPermission = false;
+  Duration _todayUsage = Duration.zero;
+  Duration _weekUsage = Duration.zero;
+  String _statusText = "Press button to fetch usage";
+  Timer? _permissionTimer;
+
+  @override
+  void initState() {
+    super.initState();
+    _startPermissionCheck();
+  }
+
+  @override
+  void dispose() {
+    _permissionTimer?.cancel();
+    super.dispose();
+  }
+
+  void _startPermissionCheck() {
+    _permissionTimer = Timer.periodic(const Duration(seconds: 2), (timer) async {
+      bool perm = await UsageStats.checkUsagePermission() ?? false;
+      if (perm && !_hasPermission) {
+        setState(() {
+          _hasPermission = true;
+          _statusText = "Permission granted! You can now fetch usage.";
+        });
+      }
+    });
+  }
+
+  Future<void> _requestPermission() async {
+    bool perm = await UsageStats.checkUsagePermission() ?? false;
+
+    if (!perm) {
+      try {
+        await platform.invokeMethod('openUsageAccessSettings');
+        setState(() {
+          _statusText = "Please enable usage access for this app in settings";
+        });
+      } on PlatformException catch (e) {
+        setState(() {
+          _statusText = "Failed to open settings: ${e.message}";
+        });
+      }
+    } else {
+      setState(() {
+        _statusText = "Permission already granted";
+        _hasPermission = true;
+      });
+    }
+  }
+
+  Duration _durationFromMs(String? ms) {
+    if (ms == null) return Duration.zero;
+    int parsed = int.tryParse(ms) ?? 0;
+    return Duration(milliseconds: parsed);
+  }
+
+  Future<void> _fetchUsage() async {
+    setState(() {
+      _statusText = "Fetching usage...";
+    });
+
+    DateTime now = DateTime.now();
+    DateTime dayStart = DateTime(now.year, now.month, now.day);
+    DateTime weekStart = now.subtract(const Duration(days: 7));
+
+    try {
+      // TODAY
+      List<UsageInfo> todayStats = await UsageStats.queryUsageStats(dayStart, now);
+      Duration today = Duration.zero;
+      for (var info in todayStats) {
+        today += _durationFromMs(info.totalTimeInForeground);
+      }
+
+      // WEEK
+      List<UsageInfo> weekStats = await UsageStats.queryUsageStats(weekStart, now);
+      Duration week = Duration.zero;
+      for (var info in weekStats) {
+        week += _durationFromMs(info.totalTimeInForeground);
+      }
+
+      setState(() {
+        _todayUsage = today;
+        _weekUsage = week;
+        _statusText = "Usage fetched. Logged all details to console.";
+      });
+
+      // Log all stats to console
+      _logAllUsageStats(dayStart, now);
+    } catch (e) {
+      setState(() {
+        _statusText = "Error fetching usage: $e";
+      });
+    }
+  }
+
+  Future<void> _logAllUsageStats(DateTime start, DateTime end) async {
+    try {
+      List<UsageInfo> stats = await UsageStats.queryUsageStats(start, end);
+      if (stats.isEmpty) {
+        print("No usage stats available.");
+        return;
+      }
+
+      for (var info in stats) {
+        print("------------");
+        print("Package Name: ${info.packageName}");
+        print("First Time Stamp: ${info.firstTimeStamp}");
+        print("Last Time Used: ${info.lastTimeUsed}");
+        print("Total Time in Foreground (ms): ${info.totalTimeInForeground}");
+        print("------------\n");
+      }
+    } catch (e) {
+      print("Error logging usage stats: $e");
+    }
+  }
+
+  String _formatDuration(Duration d) {
+    int hours = d.inHours;
+    int minutes = d.inMinutes.remainder(60);
+    return "${hours}h ${minutes}m";
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    DateTime now = DateTime.now();
+
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Unplug Dashboard"),
+        backgroundColor: Colors.black,
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          children: [
+            Text(_statusText, style: const TextStyle(fontSize: 16)),
+            const SizedBox(height: 20),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                ElevatedButton(
+                  onPressed: _requestPermission,
+                  child: const Text("Request Permission"),
+                ),
+                ElevatedButton(
+                  onPressed: _hasPermission ? _fetchUsage : null,
+                  child: const Text("Fetch Screen Time"),
+                ),
+              ],
+            ),
+
+            const SizedBox(height: 32),
+
+            Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              elevation: 4,
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  children: [
+                    Text("Today's Screen Time",
+                        style: Theme.of(context).textTheme.titleLarge),
+                    const SizedBox(height: 8),
+                    Text(_formatDuration(_todayUsage),
+                        style: Theme.of(context).textTheme.displaySmall),
+                    const SizedBox(height: 16),
+                    Text("This Week's Screen Time",
+                        style: Theme.of(context).textTheme.titleLarge),
+                    const SizedBox(height: 8),
+                    Text(_formatDuration(_weekUsage),
+                        style: Theme.of(context).textTheme.displaySmall),
+                  ],
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 20),
+
+            Expanded(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[850],
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: _hasPermission
+                    ? FutureBuilder<List<UsageInfo>>(
+                        future: UsageStats.queryUsageStats(
+                          DateTime(now.year, now.month, now.day),
+                          now,
+                        ),
+                        builder: (context, snapshot) {
+                          if (!snapshot.hasData || snapshot.data!.isEmpty) {
+                            return const Center(
+                                child: Text(
+                                    "No app usage data or permission not granted"));
+                          }
+
+                          var list = snapshot.data!;
+                          return ListView.builder(
+                            itemCount: list.length,
+                            itemBuilder: (context, i) {
+                              var info = list[i];
+                              Duration d =
+                                  _durationFromMs(info.totalTimeInForeground);
+
+                              if (d == Duration.zero) return const SizedBox();
+
+                              return ListTile(
+                                title: Text(info.packageName ?? "Unknown app"),
+                                subtitle:
+                                    Text("Used: ${_formatDuration(d)}"),
+                              );
+                            },
+                          );
+                        },
+                      )
+                    : const Center(
+                        child: Text(
+                          "Grant permission to see app usage",
+                          style: TextStyle(fontSize: 16),
+                        ),
+                      ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
