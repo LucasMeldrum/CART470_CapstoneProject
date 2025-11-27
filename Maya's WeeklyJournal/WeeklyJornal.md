@@ -360,7 +360,10 @@ This was another aspect of the app that was highly interesting to the interviewe
 </div>
 
 **3. Simplifying the interface to show key details and insights.**
+We are going to use a similar interface layout to what we had in our prototype, with the changes we decided on during user testing. This included adding more information to some of the graphs, making them more legible and obvious as to what they show, and making sure the graphics are obvious in what they are depicting (mainly the widget logo graphic). 
 
+Next week:
+For our final presentation, we will have the interface created with the changes we made and will be able to send, receive, and view the corrected data. Some aspect of the app may not be completely usable yet due to our time constraints, but ideally, we will have a base functionality with a plan on how to move forward in the future. 
 
 
 
