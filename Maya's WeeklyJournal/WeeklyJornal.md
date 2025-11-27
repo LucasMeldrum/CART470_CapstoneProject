@@ -243,7 +243,7 @@ Solutions may include:
 
 ### 4. Data Privacy
 
-A user described wanting a more fleshed out idea of how friending others would work and to make sure that random people would not be able to use or see her data. She said she would only be likely to use the app if you needed to approve friends and wanted to option to turn off sharing her screen time.
+A user described wanting a more fleshed-out idea of how friending others would work and to make sure that random people would not be able to use or see her data. She said she would only be likely to use the app if you needed to approve friends and wanted to option to turn off sharing her screen time.
 
 Solutions may include:
 - Adding a figma interface to show users how they would add friends and the need to accept a friend request
@@ -350,6 +350,16 @@ This means we will be setting up a framework within our database to hold statist
 
 **2. Allowing users to send data to each other.**
 This was another aspect of the app that was highly interesting to the interviewees and represents a large motivating feature of the app so it is very important we include it in the final version. We are currently unsure as to how this interaction will take place, currently, we have a button on our interface that sends the data to a specific person when the button is clicked. Ideally, this would be an automatic action that is performed consistently instead of a manual action. Ideally, you would be able to see other people's long-term graphs as well. 
+
+<div align="center">
+
+<img width=50% height=50% alt="image" src="/Media/API_Initial.png" />
+
+<p><em>Image of Sending and Recieving Interface for Data</em></p>
+
+</div>
+
+**3. Simplifying the interface to show key details and insights.**
 
 
 
