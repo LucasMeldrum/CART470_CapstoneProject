@@ -263,3 +263,16 @@ To make the app actually look like something instead of a button that fetches sc
 
 For now a lot is hard coded in until we get the database up and working then we can start implementing properly but the app is progressing nicely!
 
+# Week 10
+This week I began the setup and development of the databse for the app. Setting it up with Firebase (googles databse Firestore) seemed simple at first but led to and is still leading to many challenges. 
+
+This is the UI for the databse on the website:
+![Database](/Media/Database.png)
+
+For now it is configured with the app however there are version errors and many other errors that come when calling to and from the database. The whole idea of it is to store Users and their screen times after getting them from the API. A lot of back and forth with testing and finding errors then solving those issues. 
+
+With the database finished it will be possible to display proper friend results and compare the primary user's stats to that of their friends. 
+
+Again this week focuses on the implementation of the app without much design principles since getting the app actually up and working with the end goal of a finished product that can be added to the Google Play Store takes a lot of time and re-iterating as we find issues and what seems off as we go.
+
+For the final week, finishing the app and the development, feel and look will be of upmost priority to get a finished final product that can then be updated and fix as more users interact with it!
