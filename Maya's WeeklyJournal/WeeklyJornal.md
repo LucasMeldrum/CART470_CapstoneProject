@@ -340,6 +340,14 @@ This week we have gotten functionality working on the emulator with the database
 **1. Set up the data base for long term tracking and statistics.**
 This means we will be setting up a framework within our data base to hold statistic information over long periods of time. This data will be presented on an easy-to-read chart and will be able to compiled over time. This will also be the chart that is displayed on the front page, INSTEAD OF the 
 
+<div align="center">
+
+<img width="418" height="270" alt="image" src="/Media/HomeScreen.png" />
+
+<p><em>Primary Phone Usage</em></p>
+
+</div>
+
 
 
 
