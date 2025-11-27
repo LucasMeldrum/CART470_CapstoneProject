@@ -338,16 +338,18 @@ _November 23rd_
 This week we have gotten functionality working on the emulator with the database and the API, and are now working on the changes to the interface that we proposed on week seven. Within the limitations of the app and the time limit we have, we have decided on a few aspects to execute that will make this an ideal final prototype and design:
 
 **1. Set up the data base for long term tracking and statistics.**
-This means we will be setting up a framework within our data base to hold statistic information over long periods of time. This data will be presented on an easy-to-read chart and will be able to compiled over time. This will also be the chart that is displayed on the front page, INSTEAD OF the 
+This means we will be setting up a framework within our database to hold statistical information over long periods of time. This data will be presented on an easy-to-read chart and will be able to be compiled over time. Long-term data tracking was an aspect of this app that was highly favored by the interviewees, so we are making sure to prominently include it in the final. This will also be the chart that is displayed on the front page, INSTEAD OF the widgets under the "Daily Activity" section seen below on the home screen. We made this switch due to user testing suggested on week six. 
 
 <div align="center">
 
-<img width="418" height="270" alt="image" src="/Media/HomeScreen.png" />
+<img width="auto" height="auto" alt="image" src="/Media/HomeScreen.png" />
 
-<p><em>Primary Phone Usage</em></p>
+<p><em>Home Screen With Daily Activity</em></p>
 
 </div>
 
+**2. Allowing users to send data to each other.**
+This was another aspect of the app that was highly interesting to the interviewees and represents a large motivating feature of the app so it is very important we include it in the final version. We are currently unsure as to how this interaction will take place, currently, we have a button on our interface that sends the data to a specific person when the button is clicked. Ideally, this would be an automatic action that is performed consistently instead of a manual action. Ideally, you would be able to see other people's long-term graphs as well. 
 
 
 
