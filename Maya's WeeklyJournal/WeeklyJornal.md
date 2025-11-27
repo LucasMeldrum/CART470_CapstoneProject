@@ -331,6 +331,14 @@ The prototype of our finished app will likely be a data base that shows detailed
 
 </div>
 
+# Week 10
+
+_November 23rd_
+
+This week we have gotten functionality working on the emulator with the database and the API, and are now working on the changes to the interface that we proposed on week seven. Within the limitations of the app and the time limit we have, we have decided on a few aspects to execute that will make this an ideal final prototype and design:
+
+**1. Set up the data base for long term tracking and statistics.**
+This means we will be setting up a framework within our data base to hold statistic information over long periods of time. This data will be presented on an easy-to-read chart and will be able to compiled over time. This will also be the chart that is displayed on the front page, INSTEAD OF the 
 
 
 
