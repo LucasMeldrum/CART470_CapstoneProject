@@ -267,7 +267,7 @@ Like stated in my last entry, the widget clock logo was running into readability
 
 <div align="center">
 
-<img src="/Media/WidgetRedesign.jpg" alt="widgetImage" width="40%" />
+<img src="/Media/WidgetRedesigns.jpg" alt="widgetImage" width="40%" />
 
 <p><em>Widget Redesigns</em></p>
 
