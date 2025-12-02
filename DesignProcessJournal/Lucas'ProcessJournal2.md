@@ -26,86 +26,97 @@ We conducted our user testing during [week 6 and 7](/Lucas'%20WeeklyJournal/Week
 | **Data Privacy**                     | Users worried about sharing screen time with strangers; needed strong control over visibility and safety.  | Mutual-friends sharing only, ability to turn sharing off, block requests, no public profiles, no sensitive data sharing, unfollow = immediate removal. |
 | **The Stats They Always Wanted!**    | Users wanted long-term stats (weeks/months/years), comparison with friends, and “pickups per day” always visible. | Add long-term trends, friend comparison features, leaderboards, and highlight “pickups per day” across multiple screens. |
 
-## 2. Early Prototype (Jan 15–18, 2025)
+## Iteration Cycle After Testing
 
-### Prototype Goals
-1. Request Android Usage Stats permission  
-2. Fetch today's and weekly usage  
-3. Show a simple dashboard with two cards  
-4. Add basic “Goal” feature  
-
-### Sketch Summary
-*(Insert image)*  
-- Home screen with a single “Fetch Usage” button  
-- Two cards: Today + Week  
-- Disabled state until permission is granted  
+Our iteration cycle followed the core stages of **planning**, **designing**, **implementing**, and **testing**, with each loop aiming for continuous improvement based on user feedback. We focused on the four major issues identified: widgets, graph readability, data privacy, and long-term stats.
 
 ---
 
-## 3. User Testing Round #1 (Jan 19, 2025)
+## 1. Planning
 
-### Participant
-- Maya (casual smartphone user)
-- Testing on Android Emulator (Pixel 9 API 34)
+During the planning stage, we reviewed user testing notes and grouped the main problems:
 
-### Tasks Given
-1. Launch the app  
-2. Try to request permission  
-3. Fetch screen-time data  
-4. Read the dashboard  
+- Users misread the widget-clock logo and could not interpret the sleep segment.  
+- Graphs were unclear or missing essential information (Y-axis, labels).  
+- Users expressed strong concerns around data privacy and sharing.  
+- Users wanted more long-term trends and comparison features.
 
-### Observations
-- **Major Issue:** Android Emulator cannot grant Usage Access → user stuck.  
-- Button looked enabled but didn’t do anything on emulator.  
-- Dashboard looked empty until the user pressed “Fetch Usage”.  
-- No text explaining what the app was supposed to do.  
-- User confused by lack of feedback after tapping buttons.
-
-### Pain Points
-1. Unclear permission flow  
-2. No initial guidance  
-3. No loading indicators  
-4. Dashboard appears “dead” before first use  
+From these insights, we defined functional requirements:
+- Clarify visual communication of sleep vs awake time.  
+- Make graph data more readable and meaningful.  
+- Create a privacy based sharing system.  
+- Expand statistical depth with weekly, monthly, and yearly views.
 
 ---
 
-## 4. Iteration Cycle (Jan 20–22, 2025)
+## 2. Designing
 
-### Findings → Implemented Changes
-| Problem Found in Testing | Change Implemented |
-|--------------------------|--------------------|
-| Emulator cannot give permission | Added error message: *“Usage Access not available on emulators. Use a real device.”* |
-| Dashboard empty on first load | Added placeholder cards with grey text |
-| No guidance | Added top banner: *“Step 1: Grant permission → Step 2: Fetch usage”* |
-| No feedback | Added loading spinner + small toast message |
-| Confusing data | Added context text: “You used your phone X% more/less than yesterday.” |
+The design stage focused on ideating solutions for each issue:
 
-### Updated Prototype Features
-- Clear visual state transitions  
-- Explicit error handling  
-- Better onboarding  
-- More supportive UX tone  
+- **Widget Redesign:** Introduced a clearer icon , stronger separation between sleep and awake time, and clock numbering.  
+- **Graph Enhancements:** Added axes, legends, and better visibility; reorganized layout for hierarchy and clarity.  
+- **Privacy Framework:** Designed friend adding/sharing, toggle-based visibility, blocking, and the removal of sensitive data.  
+- **Expanded Stats:** Wireframed new long-term graphs, comparison screens, and the placement of “Pickups Per Day” across the app.
 
----
+Design changes were sketched, prototyped, and prepared for implementation through figma:
 
-## 5. README (One Page)
+![Changesv1](/Media/Changes_v1.png)
+![Changesv2](/Media//Changes_v2.png)
+![WidgetChangesv3](/Media//WidgetChanges_v3.png)
 
-# Screen Time App — README
-
-## Overview
-A simple Flutter app that displays your daily and weekly screen-time using Android's Usage Stats API. The focus is on clarity, minimalism, and actionable insights.
 
 ---
 
-## Installation
+## 3. Implementing
 
-### Requirements
-- Android device (real device required — emulators cannot grant Usage Access)
-- Flutter SDK 3.24+
-- Android SDK 34+
+We attempted and are continuing to transform the designs into functional features:
 
-### Steps
-```bash
-git clone <repository>
-flutter pub get
-flutter run
+- Updated widget visuals and changed the sleep icon to a bed for clearer interpretation.  
+- Rebuilt the stats graphs with proper axes, labels, tooltips, and restructured layouts.  
+- Introduced backend logic for friend approval, blocking, and sharing toggles.  
+- Implemented database support for weeks, months, and yearly views, and surfaced “pickups per day” across multiple screens.
+
+Although not fully implemented yet due to the larger scope of the project, we have prototyped the fixes into our figma to allow for further testing and confirming correct changes have been done.
+
+---
+
+## 4. Testing
+
+After implementation, we ran a second round of user testing:
+
+- Users immediately understood the new widget layout and no longer confused “night time” with “sleep time.”  
+- The enhanced graphs were described as “much clearer” and “way more useful.”  
+- Privacy controls were praised, and users felt safe sharing their screen time.  
+- Long-term stats and friend comparisons increased user engagement and motivation.
+
+Testing validated that our changes effectively addressed user pain points.
+
+---
+
+## Continuous Improvement Summary
+
+At the end of our first cycle, we revealed new insights that will be fed back into planning, creating a loop of continuous iteration and refinement. By moving through **Planning → Designing → Implementing → Testing**, we ensured that every update was user based and improved the clarity, safety, and usefulness of the app. Even through this first cycle, we found more issues and changes that could be done and re-iterated over to create an even more polished app.
+
+---
+
+## Final Implementation 
+
+Currently, we are on the implementation stage while doing testing at the same time. As we conduct these user tests and re-iteration cycles, we are implementing the actual app. The API calls, and the flutter visualization has been finished yet there are many issues that are preventing the app from being finished. Currently the app is under construction:
+
+![app](/Media/App_v1.png)
+
+and the database:
+
+![databse](/Media/Database.png)
+
+Although it isn't finished, we are continuing to implement and hopefully have a final product by the end of the year.
+
+## Conclusion
+
+Ultimately, tthe implementation and user testing phase proved to be a critical turning point in the development of Unplug. By conducting structured user interviews early in the development process, we were able to identify and address four major issues: widget clarity, graph readability, data privacy concerns, and the need for expanded statistics, before investing significant resources into a bad design. Implementing and conducting thse users tests at the same time allowed for us to get ahead on implementation and make changes as we went.
+
+Our iterative cycle of planning, designing, implementing, and testing created a feedback loop that transformed user pain points into actionable improvements. Furthermore, second rounds of testing validated these changes, with users reporting significantly improved clarity, usefulness, and trust in the app.
+
+While the full implementation is still in progress, API integration, Flutter UI development, and Firebase database architecture has provided a solid foundation for the complete app in the future. The challenges we encountered such as finding compatible Android emulators and balancing feature requests with technical constraints, has taught us valuable lessons about development and the required time it takes to fully create a functioning app.
+
+Moving forward, we will continue our approach of implementing features while gathering user feedback, ensuring that Unplug remains responsive to real user needs!
