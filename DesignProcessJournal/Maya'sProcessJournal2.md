@@ -25,7 +25,7 @@ For the development of our final prototype, we keep these points in mind as our 
 
 
 **2. Graph Readability and Necessity**
-- Changed the Daily, Weekly, and Monthly graphs to have more visual information on the X and Y axis for better visual communication
+- Changed the Daily, Weekly, and Monthly graphs to have more visual information on the X and Y axis for better visual communication.
   
 <div align="center">
 
