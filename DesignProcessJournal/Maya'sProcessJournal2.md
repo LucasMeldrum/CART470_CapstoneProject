@@ -17,7 +17,7 @@ For the development of our final prototype, we keep these points in mind as our 
   
 <div align="center">
 
-<img src="/Media/StatsPageWithSlider.png" alt="Stats Page Slider" width="40%" />
+<img src="/Media/StatsPageWithSlider.png" alt="Stats Page Slider" width="30%" />
 
 <p><em>Stats Page Showing Slider At Top</em></p>
 
@@ -29,7 +29,7 @@ For the development of our final prototype, we keep these points in mind as our 
   
 <div align="center">
 
-<img src="/Media/NewGraphsReadable.png" alt="New Graphs" width="40%" />
+<img src="/Media/NewGraphsReadable.png" alt="New Graphs" width="30%" />
 
 <p><em>ReDone Graphs to Have Better Axis</em></p>
 
@@ -39,7 +39,7 @@ For the development of our final prototype, we keep these points in mind as our 
 
 <div align="center">
 
-<img src="/Media/HomePagewithAverageTimes.png" alt="Front Page Graph" width="40%" />
+<img src="/Media/HomePagewithAverageTimes.png" alt="Front Page Graph" width="30%" />
 
 <p><em>Redesigned Front Page Showing Weekly Average Graph</em></p>
 
@@ -49,12 +49,29 @@ For the development of our final prototype, we keep these points in mind as our 
 **3. The Stats They Always Wanted!**
 - Included more in-depth long-term stats like "This Day/Week/Month" stat graph as well as an "Average Day/Week/Month" stat graph.
 - Allowed for long-term stat sharing between friends-- requestable on the Friends page
+  
+<div align="center">
+
+<img src="/Media/FriendsPageWithLongTerm.png" alt="Friends page long term sharing" width="30%" />
+
+<p><em>Friends Page Showing ability to View Long Term Statistics</em></p>
+
+</div>
+
 - Put the stats that were the most liked during interviews on the front page AND the stats page (Pickups per day and average session)
 
 **4. Data Privacy**
 - Added a "Data Privacy" setting on the front and friends pages. Linked to a pop up where users cna choose to stop sharing their short and long term statistics with their friends.
 - Only friends are able to see stats.
-- Some friends' long terms stats are not visible on friends page to show this feature. 
+- Some friends' long-term stats are not visible on friends page to show this feature.
+
+<div align="center">
+
+<img src="/Media/dataPrivacyPopup.png" alt="Data Privacy Popup" width="30%" />
+
+<p><em>The Popup that Shows when the "Privacy Settings" Button is Pressed</em></p>
+
+</div>
 
 ## Implementation
 
