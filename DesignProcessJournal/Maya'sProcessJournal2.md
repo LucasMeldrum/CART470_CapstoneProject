@@ -75,8 +75,17 @@ For the development of our final prototype, we keep these points in mind as our 
 
 ## Implementation
 
+
+
 # Final User Testing
 
+For our final round of user testing, we got the same three people who we interviewed first to use the app for around 7 minutes and then come back to use with comments. We have analyzed these comments and have concentrated them into a series of needed changes and design aspects that worked very well within our intended context. 
+
 ## Comments and Improvements on Design Goals
+1. One user commented that the previous data privacy concerns she had were eradicated. She no longer felt hesitant to use the app since she would be able to stop sharing her screen time whenever she wanted.
+2. Another previous user stated that the graphs were much more legible while also staying simplistic and nice to look at. She also liked how the graphs for different time periods (days, weeks, months) were unique to the type of information needed but stayed relatively visually uniform throughout. She did comment that she may want the ability to view data in a bar graph form- like how it is seen on the home page- instead of just a line graph. She also greatly commended the Home Screen and said it has all the features she wants right at the front and looks great.
+3. One user said that the way information is laid out in the long-term stats page is slightly confusing. She is less interested in the screen time of each individual day or week and would like her weekly or daily average to be displayed first, like it is on IOS Screen Time Tracking devices.
+4. One user said that they wanted to be able to compare their long-term statistics to their friends and would love it if the insights on the long-term stats friends page showed comparison insights. 
 
 ## How Comments Become Actionable Design Concepts
+With these comments in mind, we brainstormed the next iteration of this application. Ideally, the next form would be fully functioning using the API calling and database management functions we were able to rudimentarily install in our implemented version. 
