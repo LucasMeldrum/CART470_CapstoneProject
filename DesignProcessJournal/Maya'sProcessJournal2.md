@@ -14,11 +14,36 @@ For the development of our final prototype, we keep these points in mind as our 
 
 **1. Basic App Interface Improvements**   
 - Made the Stats page easier to navigate using a slider bar at the top of the page.
-- Changed colors and simplified design and graphs.
+  
+<div align="center">
+
+<img src="/Media/StatsPageWithSlider.png" alt="Stats Page Slider" width="40%" />
+
+<p><em>Stats Page Showing Slider At Top</em></p>
+
+</div>
+
 
 **2. Graph Readability and Necessity**
 - Changed the Daily, Weekly, and Monthly graphs to have more visual information on the X and Y axis for better visual communication
+  
+<div align="center">
+
+<img src="/Media/NewGraphsReadable.png" alt="New Graphs" width="40%" />
+
+<p><em>ReDone Graphs to Have Better Axis</em></p>
+
+</div>
+
 - Changed the "Most Used Apps" widget on the front page to a bar graph showing screen time use throughout the week
+
+<div align="center">
+
+<img src="/Media/HomePagewithAverageTimes.png" alt="Front Page Graph" width="40%" />
+
+<p><em>Redesigned Front Page Showing Weekly Average Graph</em></p>
+
+</div>
 
 
 **3. The Stats They Always Wanted!**
