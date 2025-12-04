@@ -13,7 +13,7 @@ In Week 7 of our weekly journals, we described four pain points/points of intere
 For the development of our final prototype, we keep these points in mind as our driving force to create a user-friendly and genuinely impactful application-- something people would really use. Here are our amendments:
 
 **1. Basic App Interface Improvements**   
-- Made the Stats page easier to navigate using a slider bar at the top of the page.
+- We made the Stats page easier to navigate using a slider bar at the top of the page. We added individual day, week, and year tabs (instead of the first draft, which had day, month, and year all listed on the same page) so a user could get a better look at their long-term statistics. As seen in our user interviews from Week 6 and 7, our potential client base was very interested in seeing statistics from years back (a feature that is not included in IOS Screen Time tracking software).
   
 <div align="center">
 
@@ -25,7 +25,7 @@ For the development of our final prototype, we keep these points in mind as our 
 
 
 **2. Graph Readability and Necessity**
-- Changed the Daily, Weekly, and Monthly graphs to have more visual information on the X and Y axis for better visual communication.
+- We changed the Daily, Weekly, and Monthly graphs to have more visual information on the X and Y axis's for better visual communication. Users were saying that the first draft did not properly convey what the graph was supposed to convey. Images of the initial draft can be seen in Process Journal 1 Statistics Page. 
   
 <div align="center">
 
@@ -35,7 +35,7 @@ For the development of our final prototype, we keep these points in mind as our 
 
 </div>
 
-- Changed the "Most Used Apps" widget on the front page to a bar graph showing screen time use throughout the week
+- We changed the "Most Used Apps" widget on the front page to a bar graph showing screen time use throughout the week. The original home page (seen in Process Journal 1 Home Page screen) does not include this bar graph at all. We believe that the bar graph was preferred among our interviewees because it is very similar to the way IOS devices track and portray their screen time information. Similar visual cues make this more easily readable. 
 
 <div align="center">
 
@@ -47,8 +47,8 @@ For the development of our final prototype, we keep these points in mind as our 
 
 
 **3. The Stats They Always Wanted!**
-- Included more in-depth long-term stats like "This Day/Week/Month" stat graph as well as an "Average Day/Week/Month" stat graph.
-- Allowed for long-term stat sharing between friends-- requestable on the Friends page
+- We also included more in-depth long-term stats like "This Day/Week/Month" stat graph as well as an "Average Day/Week/Month" stat graph. As stated before, users were very interested in these long-term statistics as they are not a feature of the IOS tracking software. 
+- Allowed for long-term stat sharing between friends-- requestable on the Friends page. Users can now look at the longer term statistics of their friends, not just their daily use. 
   
 <div align="center">
 
@@ -58,12 +58,12 @@ For the development of our final prototype, we keep these points in mind as our 
 
 </div>
 
-- Put the stats that were the most liked during interviews on the front page AND the stats page (Pickups per day and average session)
+- We put the stats that were the most liked during interviews on the front page AND the stats page (Pickups per day and average session). Users particularly liked the "Pick Ups Per Day" feature that was included so we put it on the home screen aswell. 
 
 **4. Data Privacy**
-- Added a "Data Privacy" setting on the front and friends pages. Linked to a pop up where users cna choose to stop sharing their short and long term statistics with their friends.
-- Only friends are able to see stats.
-- Some friends' long-term stats are not visible on friends page to show this feature.
+- We added a "Data Privacy" setting on the front and friends pages. Linked to a pop-up where users can choose to stop sharing their short and long term statistics with their friends.
+- We made it so that only friends are able to see stats.
+- This is shown by only some friends' long-term stats being visible on the friends page.
 
 <div align="center">
 
@@ -89,3 +89,13 @@ For our final round of user testing, we got the same three people who we intervi
 
 ## How Comments Become Actionable Design Concepts
 With these comments in mind, we brainstormed the next iteration of this application. Ideally, the next form would be fully functioning using the API calling and database management functions we were able to rudimentarily install in our implemented version. 
+
+_1. What worked well:_
+  - Long-term statistics and the multiple graphs per time period
+  - General privacy settings for sharing
+  - Highlighting statistics that users were most interested in (Pickups, Monthly, Total Time per Week), instead of guessing what we think they want to see
+  - Balancing graphs to have just enough information on them to make them completely understandable without overcrowding the page. Also using visuals from graphs that users are used to (the Apple IOS Screen Time bar graph) to play on visual information that users already have in their brains. This makes for quicker deciphering.
+_2. What needs to be changed:_
+  - The statistics page can be further iterated on. It does not seem like we have gotten to the heart of what users really would like to see on this screen. They like being able to see statistics in the long term, but seem to care more about seeing a change over time or an average amount of time spent. These times could potentially translate into statistics like "How much time have you spent playing video games instead of learning a new language" or other 'Insights' that give people more perspective-- rather than just numbers.
+  - Increasing the ability to share and compare statistics seems like a way we could get users talking about the app more. The point of the app is NOT to generate traction or money, but it IS supposed to get young people talking to each other about how much time they spend on their phones and the actual cost of that. One of our interviewers expressed a desire to be able to see insights that compared long-term statistics of her and her friends. This desire led us to believe that doubling down on the social aspect of this design could increase the number of users discussing their addiction and ultimately increase awareness and accountability.
+  - Actual implementation would be a definite necessity in the further creation of this app. We would need to do further testing on the database implementation since we have the API already set up. We would also need to do more research into how information can be stored locally long-term on a user's device. The UI implementation was not difficult however, in order to accurately show all the design changes we made we were not able to make a fully functioning UI. 
