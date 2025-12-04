@@ -1,11 +1,12 @@
 # Final App!
+
+Maya Marshel 
+
+December 3rd, 2025
+
 Our final application ended up taking two forms: a high-fidelity working prototype on Figma and real working code that can send, receive, and store screen time data. After working through both the development of the user interface design and the actual implementation of the app, we decided that to properly portray the design changes we found in our user testing, we would need to create another interface on Figma. Both aspects of the prototype were incredibly important to our ability to portray, understand, and test our app and hold real value when expressing the idea to others. 
 
-<video controls width="400">
-  <source src="media/FinalVideoScreenTimeTracker.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+_A video of the full app can be seen in the Media folder at "FinalVideoScreenTimeTrack.mp4"_
 
 ## User Interface: Designing for our Audience
 
@@ -16,10 +17,10 @@ In Week 7 of our weekly journals, we described four pain points/points of intere
 3. The Stats They Always Wanted!
 4. Data Privacy
 
-For the development of our final prototype, we keep these points in mind as our driving force to create a user-friendly and genuinely impactful application-- something people would really use. Here are our amendments:
+For the development of our final prototype, we keep these points in mind as our driving force to create a user-friendly and genuinely impactful application-- something people would really use. When interviewing and creating the next protoype we were thinking directly about fulfilling the goals we set in the firsts few weeks of this project: Designing for accountability using socialization and awareness, creating a simple and calm interface that can be checked quickly (as to not increase screen time), trying to find the barrier to lowering screen time (what do people need to see to be influenced to stop?). These guiding rules along side the next user insights led to these amendments in our design: 
 
 **1. Basic App Interface Improvements**   
-- We made the Stats page easier to navigate using a slider bar at the top of the page. We added individual day, week, and year tabs (instead of the first draft, which had day, month, and year all listed on the same page) so a user could get a better look at their long-term statistics. As seen in our user interviews from Week 6 and 7, our potential client base was very interested in seeing statistics from years back (a feature that is not included in IOS Screen Time tracking software).
+- We made the Stats page easier to navigate using a slider bar at the top of the page. We added individual day, week, and year tabs (instead of the first draft, which had day, month, and year all listed on the same page) so a user could get a better look at their long-term statistics. As seen in our user interviews from Week 6 and 7, our potential client base was very interested in seeing statistics from years back (a feature that is not included in IOS Screen Time tracking software). They expressed that seeing how time compiles over years may influence their usage.
   
 <div align="center">
 
@@ -54,7 +55,7 @@ For the development of our final prototype, we keep these points in mind as our 
 
 **3. The Stats They Always Wanted!**
 - We also included more in-depth long-term stats like "This Day/Week/Month" stat graph as well as an "Average Day/Week/Month" stat graph. As stated before, users were very interested in these long-term statistics as they are not a feature of the IOS tracking software. 
-- Allowed for long-term stat sharing between friends-- requestable on the Friends page. Users can now look at the longer term statistics of their friends, not just their daily use. 
+- Allowed for long-term stat sharing between friends-- requestable on the Friends page. Users can now look at the longer-term statistics of their friends, not just their friend's daily use. 
   
 <div align="center">
 
@@ -67,8 +68,8 @@ For the development of our final prototype, we keep these points in mind as our 
 - We put the stats that were the most liked during interviews on the front page AND the stats page (Pickups per day and average session). Users particularly liked the "Pick Ups Per Day" feature that was included so we put it on the home screen aswell. 
 
 **4. Data Privacy**
-- We added a "Data Privacy" setting on the front and friends pages. Linked to a pop-up where users can choose to stop sharing their short and long term statistics with their friends.
-- We made it so that only friends are able to see stats.
+- We added a "Data Privacy" setting on the front and friends pages. Linked to a pop-up where users can choose to stop sharing their short and long-term statistics with their friends.
+- We made it so that only friends are able to share stats.
 - This is shown by only some friends' long-term stats being visible on the friends page.
 
 <div align="center">
@@ -102,6 +103,7 @@ We have also set up some of the usable UI inside of VS Code, so we have a better
 <p><em>DataBase on FireBase</em></p>
 
 </div>
+
 
 
 # Final User Testing
