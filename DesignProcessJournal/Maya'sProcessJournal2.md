@@ -1,6 +1,12 @@
 # Final App!
 Our final application ended up taking two forms: a high-fidelity working prototype on Figma and real working code that can send, receive, and store screen time data. After working through both the development of the user interface design and the actual implementation of the app, we decided that to properly portray the design changes we found in our user testing, we would need to create another interface on Figma. Both aspects of the prototype were incredibly important to our ability to portray, understand, and test our app and hold real value when expressing the idea to others. 
 
+<video controls width="400">
+  <source src="media/FinalVideoScreenTimeTracker.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## User Interface: Designing for our Audience
 
 In Week 7 of our weekly journals, we described four pain points/points of interest that interviewees had with our initial prototype:
@@ -75,6 +81,27 @@ For the development of our final prototype, we keep these points in mind as our 
 
 ## Implementation
 
+As seen in Week 9-10 we have begun implementation of our app on VS Code using Flutter and Firebase. We have successfully set up API calls from specific Android systems to send and receive screen time data from a user's phone. This data can be stored in our app to await further manipulation. This was a pretty difficult aspect to get working and took many rounds of trial and error since we were attempting to take private data from a highly secure device. This is also why we needed to use Android instead of IOS since IOS devices required a paid editor subscription in order to access the API. 
+
+We also worked with a Firebase database to store, send, and receive users' data to make times sharable. This ended up being quite challenging to successfully set up. We have got Firebase working with our project, and it is functioning trivially, but we have not yet been able to build the infrastructure for saving and sending data within the base. The setup and implementation alone took roughly 12 hours.
+
+We have also set up some of the usable UI inside of VS Code, so we have a better understanding of what features will take to build and what is feasible and doable for us as intermediate developers. Some aspects of the UI (like the sliders and the real-time graphs) will have to be figured out using pre-created code that we will have to find online. 
+
+<div align="center">
+
+<img src="/Media/API_Initial.png" alt="API send and recieve" width="30%" />
+
+<p><em>Sending and Recieving Real Data Using API Calls</em></p>
+
+</div>
+
+<div align="center">
+
+<img src="/Media/Database.png" alt="database" width="30%" />
+
+<p><em>DataBase on FireBase</em></p>
+
+</div>
 
 
 # Final User Testing
@@ -91,11 +118,14 @@ For our final round of user testing, we got the same three people who we intervi
 With these comments in mind, we brainstormed the next iteration of this application. Ideally, the next form would be fully functioning using the API calling and database management functions we were able to rudimentarily install in our implemented version. 
 
 _1. What worked well:_
+
   - Long-term statistics and the multiple graphs per time period
   - General privacy settings for sharing
   - Highlighting statistics that users were most interested in (Pickups, Monthly, Total Time per Week), instead of guessing what we think they want to see
   - Balancing graphs to have just enough information on them to make them completely understandable without overcrowding the page. Also using visuals from graphs that users are used to (the Apple IOS Screen Time bar graph) to play on visual information that users already have in their brains. This makes for quicker deciphering.
+    
 _2. What needs to be changed:_
+
   - The statistics page can be further iterated on. It does not seem like we have gotten to the heart of what users really would like to see on this screen. They like being able to see statistics in the long term, but seem to care more about seeing a change over time or an average amount of time spent. These times could potentially translate into statistics like "How much time have you spent playing video games instead of learning a new language" or other 'Insights' that give people more perspective-- rather than just numbers.
   - Increasing the ability to share and compare statistics seems like a way we could get users talking about the app more. The point of the app is NOT to generate traction or money, but it IS supposed to get young people talking to each other about how much time they spend on their phones and the actual cost of that. One of our interviewers expressed a desire to be able to see insights that compared long-term statistics of her and her friends. This desire led us to believe that doubling down on the social aspect of this design could increase the number of users discussing their addiction and ultimately increase awareness and accountability.
   - Actual implementation would be a definite necessity in the further creation of this app. We would need to do further testing on the database implementation since we have the API already set up. We would also need to do more research into how information can be stored locally long-term on a user's device. The UI implementation was not difficult however, in order to accurately show all the design changes we made we were not able to make a fully functioning UI. 
